@@ -49,7 +49,7 @@ def extract_hymn(filepath):
         # Check if text is just a reference like [REFRÃO] or [REFRÃO 2X]
         is_ref = bool(re.match(r'^\[REF(RÃO|RAO).*\]$', text.strip(), re.IGNORECASE))
         
-        # Check for repeat instructions like [REPETE TODA]
+        # Check for repeat instructions like [REPETE ACIMA]
         is_instruction = bool(re.match(r'^\[.+\]$', text.strip()))
 
         sections.append({

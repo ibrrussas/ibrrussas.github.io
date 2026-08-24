@@ -75,7 +75,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -553,7 +553,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -1120,7 +1120,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -1333,7 +1333,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -1480,7 +1480,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -1610,7 +1610,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -2379,7 +2379,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -2432,7 +2432,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -2544,7 +2544,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -2597,7 +2597,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -2850,7 +2850,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Repete toda]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -2980,7 +2980,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Repete toda]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -3158,7 +3158,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -3969,7 +3969,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -4134,7 +4134,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -4346,7 +4346,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -4381,7 +4381,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -4493,7 +4493,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -5061,7 +5061,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -5516,7 +5516,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -5839,7 +5839,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -6187,7 +6187,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -6258,7 +6258,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -6353,7 +6353,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -7096,7 +7096,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA 1X]",
+        "text": "[REPETE ACIMA 1X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -8373,7 +8373,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -8887,7 +8887,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -9342,7 +9342,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -9377,7 +9377,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -9815,7 +9815,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -10062,7 +10062,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -10510,7 +10510,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA 1X]",
+        "text": "[REPETE ACIMA 1X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -10586,7 +10586,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -10757,7 +10757,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11046,7 +11046,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11116,7 +11116,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11139,7 +11139,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11586,7 +11586,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11845,7 +11845,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11892,7 +11892,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11927,7 +11927,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -11992,7 +11992,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Repete toda]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -12487,7 +12487,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -12587,7 +12587,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TODA]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true

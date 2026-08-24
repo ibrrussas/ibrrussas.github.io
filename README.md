@@ -32,7 +32,7 @@ Site completo para o repertório de louvores da **Igreja Batista Reformada em Ru
 ### 3. Exibição de letras com refrão formatado
 - Refrão aparece em **negrito e itálico** com borda lateral vermelha e fundo sutil
 - Quando a letra tem `[REFRÃO]` como referência, o texto completo do refrão é substituído
-- Instruções como `[REPETE TODA]` aparecem em itálico com cor muted
+- Instruções como `[REPETE ACIMA]` aparecem em itálico com cor muted
 - Animação suave de entrada ao selecionar um hino
 
 ### 4. Controle de tamanho de fonte (A+/A−)
@@ -62,7 +62,8 @@ Site completo para o repertório de louvores da **Igreja Batista Reformada em Ru
 ```bash
 cd /home/dmontier/workspace-pessoal/ibrrussas.github.io
 python3 -m http.server 8080
-# Abrir http://localhost:8080 no navegador
+# Abrir http://localhost:8080 no navegador (localmente)
+# Abrir https://ibrrussas.github.io/ no navegador (ver na internet)
 ```
 
 ## Observação sobre o download
