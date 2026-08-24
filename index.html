@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Repertório de louvores da Igreja Batista Reformada em Russas. Acesse as letras dos hinos utilizados nos cultos.">
+  <meta name="theme-color" content="#8B1A2B">
+  <title>Louvores – Igreja Batista Reformada em Russas</title>
+
+  <!-- Favicon (reuse logo) -->
+  <link rel="icon" type="image/png" href="images/logo_black.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" id="header">
+    <!-- Sidebar toggle -->
+    <button class="header__toggle" id="sidebarToggle" aria-label="Abrir ou fechar menu lateral" title="Menu">
+      <svg id="toggleIconMenu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+
+    <!-- Logo & Church Name -->
+    <a href="#" class="header__logo" id="logoLink">
+      <img src="images/logo_black.png" alt="Logo da Igreja Batista Reformada em Russas" width="40" height="40">
+      <div class="header__logo-text">
+        Louvores IBRR
+        <span>Igreja Batista Reformada em Russas</span>
+      </div>
+    </a>
+
+    <!-- Header actions -->
+    <div class="header__actions">
+      <!-- Download DOCX button 
+      <a href="docs/lista_louvores/lista_louvores.docx" download class="header__btn header__btn--download" id="downloadBtn" title="Baixar lista de louvores (.docx)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        <span class="header__btn--download-text">Baixar .docx</span>
+      </a>
+      -->
+    </div>
+  </header>
+
+  <!-- ====== SIDEBAR ====== -->
+  <aside class="sidebar" id="sidebar" role="navigation" aria-label="Lista de louvores">
+    <!-- Search -->
+    <div class="sidebar__search">
+      <input type="search" class="sidebar__search-input" id="searchInput" placeholder="Buscar louvor..."
+        autocomplete="off" aria-label="Buscar louvor por nome">
+    </div>
+
+    <!-- Hymn count -->
+    <div class="sidebar__count" id="hymnCount">Carregando...</div>
+
+    <!-- Hymn list -->
+    <div class="sidebar__list" id="hymnList" role="list">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- No results message -->
+    <div class="sidebar__empty" id="noResults">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+      </svg>
+      <p>Nenhum louvor encontrado</p>
+    </div>
+  </aside>
+
+  <!-- ====== OVERLAY (mobile) ====== -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main class="main" id="mainContent">
+    <!-- Welcome screen (shown when no hymn is selected) -->
+    <div class="welcome" id="welcomeScreen">
+      <svg class="welcome__icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
+      </svg>
+      <h1 class="welcome__title">Louvores da Igreja</h1>
+      <p class="welcome__subtitle">
+        Selecione um louvor no menu lateral para visualizar a letra.
+        Utilize a busca para encontrar rapidamente o hino desejado.
+      </p>
+    </div>
+
+    <!-- Lyrics display area -->
+    <article class="lyrics" id="lyricsArea" aria-live="polite">
+      <div class="lyrics__header">
+        <h1 class="lyrics__title" id="lyricsTitle"></h1>
+        <div class="lyrics__controls">
+          <span class="lyrics__font-label">Fonte:</span>
+          <button class="lyrics__font-btn" id="fontDecrease" title="Diminuir fonte"
+            aria-label="Diminuir tamanho da fonte">A−</button>
+          <button class="lyrics__font-btn" id="fontIncrease" title="Aumentar fonte"
+            aria-label="Aumentar tamanho da fonte">A+</button>
+          <button class="lyrics__font-reset" id="fontReset" title="Resetar fonte">Resetar</button>
+        </div>
+      </div>
+      <div class="lyrics__body" id="lyricsBody"></div>
+    </article>
+  </main>
+
+  <!-- ====== WHATSAPP FAB ====== -->
+  <a href="https://wa.me/558888250560" target="_blank" rel="noopener noreferrer" class="fab-whatsapp" id="whatsappFab"
+    aria-label="Contato via WhatsApp" title="Fale conosco no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+    </svg>
+    <span class="fab-whatsapp__tooltip">Fale conosco</span>
+  </a>
+
+  <!-- ====== DATA & SCRIPTS ====== -->
+  <script src="louvores_data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
