@@ -1,13 +1,13 @@
 // Auto-generated hymn data
 const LOUVORES_DATA = [
   {
-    "title": "126 (PROJETO SOLA)",
+    "title": "126 (PROJETO SOLA )",
     "sections": [
       {
         "text": "Pareceu um sonho\nQuando Deus nos libertou\nHouve riso e canto\nMaravilhoso, eterno Senhor",
         "isRefrao": false,
         "isRef": false,
-        "isInstruction": false
+        "isInstruction": 'false
       },
       {
         "text": "Vem nos restaurar\nNos encher como um rio",
