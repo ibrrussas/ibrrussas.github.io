@@ -7,7 +7,7 @@ const LOUVORES_DATA = [
         "text": "Pareceu um sonho\nQuando Deus nos libertou\nHouve riso e canto\nMaravilhoso, eterno Senhor",
         "isRefrao": false,
         "isRef": false,
-        "isInstruction": 'false
+        "isInstruction": false
       },
       {
         "text": "Vem nos restaurar\nNos encher como um rio",
