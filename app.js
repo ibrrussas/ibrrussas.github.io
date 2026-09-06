@@ -292,7 +292,7 @@
       if (isMobile && sidebar.classList.contains('open')) {
         // Only close if click is outside the sidebar and toggle button
         if (!sidebar.contains(e.target) && !sidebarToggle.contains(e.target)) {
-          closeSidebar();
+          //closeSidebar();
         }
       }
     });
