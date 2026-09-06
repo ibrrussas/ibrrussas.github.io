@@ -164,7 +164,7 @@
 
     // On mobile, close sidebar after selection
     if (isMobile) {
-      closeSidebar();
+      //closeSidebar();
     }
 
     // Scroll to top of lyrics
