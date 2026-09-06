@@ -164,7 +164,7 @@
 
     // On mobile, close sidebar after selection
     if (isMobile) {
-      //closeSidebar();
+      closeSidebar();
     }
 
     // Scroll to top of lyrics
@@ -217,6 +217,12 @@
       mainContent.classList.remove('expanded');
       overlay.classList.remove('visible');
       document.body.style.overflow = '';
+      // Don't close sidebar if search input is focused (Android keyboard resize)
+      if (document.activeElement !== searchInput) {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('visible');
+        document.body.style.overflow = '';
+      }
     } else {
       sidebar.classList.remove('open');
       overlay.classList.remove('visible');
@@ -224,6 +230,7 @@
       // Keep collapsed state if it was set
     }
   }
+
 
   // ── Search / Filter ────────────────────────────────────────
   function handleSearch() {
