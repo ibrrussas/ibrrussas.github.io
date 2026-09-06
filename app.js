@@ -286,7 +286,16 @@
   function bindEvents() {
     // Sidebar toggle
     sidebarToggle.addEventListener('click', toggleSidebar);
-    overlay.addEventListener('click', closeSidebar);
+
+    // Close sidebar when clicking outside (overlay area)
+    document.addEventListener('click', function (e) {
+      if (isMobile && sidebar.classList.contains('open')) {
+        // Only close if click is outside the sidebar and toggle button
+        if (!sidebar.contains(e.target) && !sidebarToggle.contains(e.target)) {
+          closeSidebar();
+        }
+      }
+    });
 
     // Logo click → go home
     logoLink.addEventListener('click', function (e) {
