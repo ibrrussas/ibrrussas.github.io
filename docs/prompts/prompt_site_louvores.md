@@ -8,6 +8,7 @@ Atue como um Desenvolvedor Front-end Experiente. Sua tarefa é criar o código c
 1. **Cabeçalho e Identidade Visual:**
    - Inclua um cabeçalho superior que exiba a **logomarca da igreja** (insira uma tag `<img>` com um placeholder descritivo).
    - O design deve ser limpo, moderno e adequado para leitura (modo claro com bom contraste).
+   - Escolha a melhor Logomarca para o projeto dentre as que estão no diretório images.
 
 2. **Navegação (Barra Lateral):**
    - Crie uma **barra lateral esquerda (sidebar)** contendo o índice com a lista de todos os louvores.
@@ -22,7 +23,8 @@ Atue como um Desenvolvedor Front-end Experiente. Sua tarefa é criar o código c
    - Adicione botões na tela de leitura da música que permitam ao usuário **aumentar e diminuir o tamanho da fonte** da letra via JavaScript (ex: botões "A+" e "A-").
 
 5. **Download de Arquivo DOCX:**
-   - Adicione um botão ou link claro na interface permitindo que o usuário faça o download da lista de louvores em formato **.docx** (crie um link `<a>` com `href="lista_louvores.docx"` e atributo `download`).
+   - A lista de louvores em formato .docx está no diretório **docs\lista_louvores**
+   - Adicione um botão ou link claro na interface permitindo que o usuário faça o download em formato PDF de cada louvor.
 
 6. **Contato via WhatsApp:**
    - Crie um botão de contato, de preferência um botão flutuante no canto inferior direito, com um ícone do WhatsApp.
