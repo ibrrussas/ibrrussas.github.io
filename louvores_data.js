@@ -11,19 +11,13 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Vem nos restaurar\nNos encher como um rio",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Se sair a semear\nE as lágrimas do teu rosto\nNão pararem de cair",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Lembre quem te libertou\nÉ a alegria que o fará\nVoltar a sonhar",
-        "isRefrao": false,
+        "text": "Se sair a semear\nE as lágrimas do teu rosto\nNão pararem de cair\nLembre quem te libertou\nÉ a alegria que o fará\nVoltar a sonhar",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -35,7 +29,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -92,7 +86,7 @@ const LOUVORES_DATA = [
     "title": "A começar em mim",
     "sections": [
       {
-        "text": "A começar em mim quebra corações\nPra que sejamos todos um\nComo Tu és em nós! (2X)",
+        "text": "A começar em mim quebra corações\nPra que sejamos todos um\nComo Tu és em nós! [2X]",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -136,7 +130,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "A Ele a glória",
+    "title": "A ELE A GLÓRIA",
     "sections": [
       {
         "text": "Porque Dele por Ele \nPara Ele são todas as coisas [2X]",
@@ -240,24 +234,24 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Os tesouros do mundo não expressam valor\nE a grandeza do céu é incapaz de conter\nNem o brilho do sol pode se comparar\nCom a glória do trono de Deus!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Com a glória do trono de Deus! (2X)",
+        "text": "Com a glória do trono de Deus! [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -268,7 +262,7 @@ const LOUVORES_DATA = [
     "title": "A TI, SENHOR",
     "sections": [
       {
-        "text": "A Ti, Senhor \n(A Ti Senhor),\nelevo a minh’alma\n(elevo a minh’alma) (2x)",
+        "text": "A Ti, Senhor \n(A Ti Senhor),\nelevo a minh’alma\n(elevo a minh’alma) [2x]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -286,7 +280,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Faz-me, Senhor\n(Faz-me, Senhor), \nandar em Teus caminhos\n(andar em Teus caminhos)... (2X)",
+        "text": "Faz-me, Senhor\n(Faz-me, Senhor), \nandar em Teus caminhos\n(andar em Teus caminhos)... [2x]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -304,45 +298,15 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "A Ti, Senhor \n(A Ti Senhor),\nelevo a minh’alma\n(elevo a minh’alma) (2x)",
-        "isRefrao": false,
+        "text": "[REPETE TODA]",
+        "isRefrao": true,
         "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ó meu Deus\n(Ó meu Deus), \nem Ti confio\n(só em Ti confio)!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Guarda-me, Senhor\npois em Ti, Senhor, \nme refugio!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Faz-me, Senhor\n(Faz-me, Senhor), \nandar em Teus caminhos\n(andar em Teus caminhos)... (2X)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ó meu Deus\n(Ó meu Deus), \nem Ti confio\n(só em Ti confio)!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Guarda-me, Senhor\npois em Ti, Senhor, \nme refugio!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
+        "isInstruction": true
       }
     ]
   },
   {
-    "title": "A voz do Senhor",
+    "title": "A VOZ DO SENHOR",
     "sections": [
       {
         "text": "Ouve-se a voz do Senhor\nOuve-se a voz sobre as águas\nTroveja o Deus da glória\nTroveja o Deus da glória (2 X)",
@@ -351,25 +315,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "A voz do Senhor é poderosa\nA voz do Senhor quebra os cedros",
+        "text": "A voz do Senhor é poderosa\nA voz do Senhor quebra os cedros\nSim, o Senhor despedaça os cedros do Líbano",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Sim, o Senhor despedaça os cedros do Líbano",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Despede chamas de fogo\nA Sua voz é majestosa",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sim, o Senhor troveja sobre as muitas águas!",
+        "text": "Despede chamas de fogo\nA Sua voz é majestosa\nSim, o Senhor troveja sobre as muitas águas!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -381,25 +333,13 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "A voz do Senhor é poderosa\nA voz do Senhor quebra os cedros",
+        "text": "A voz do Senhor é poderosa\nA voz do Senhor quebra os cedros\nSim, o Senhor despedaça os cedros do Líbano",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Sim, o Senhor despedaça os cedros do Líbano",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Despede chamas de fogo\nA Sua voz é majestosa",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sim, o Senhor troveja sobre as muitas águas (2 X)",
+        "text": "Despede chamas de fogo\nA Sua voz é majestosa\nSim, o Senhor troveja sobre as muitas águas (2 X)",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -470,13 +410,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Sim, prossigo vitorioso, sem pavor,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Por não ter o que temer!",
+        "text": "Sim, prossigo vitorioso, sem pavor, \nPor não ter o que temer!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -493,7 +427,7 @@ const LOUVORES_DATA = [
     "title": "ACLAME AO SENHOR",
     "sections": [
       {
-        "text": "Meu Jesus, Salvador, outro igual não há",
+        "text": "Meu Jesus, Salvador, \noutro igual não há",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -511,19 +445,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Com todo o meu ser, com tudo o que sou,\nSempre Te adorarei",
+        "text": "Com todo o meu ser, \ncom tudo o que sou,\nSempre Te adorarei",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Aclame ao Senhor toda a terra e cantemos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Poder, majestade, louvores ao Rei",
+        "text": "Aclame ao Senhor toda a terra e cantemos\nPoder, majestade, louvores ao Rei",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -535,19 +463,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Alegre Te louvo por Teus grandes feitos",
+        "text": "Alegre Te louvo por Teus grandes feitos\nFirmado estarei, sempre Te amarei",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Firmado estarei, sempre Te amarei",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Incomparáveis são Tuas promessas\npra mim!",
+        "text": "Incomparáveis são \nTuas promessas\npra mim!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -559,7 +481,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Incomparáveis são Tuas promessas\npra mim!",
+        "text": "Incomparáveis são \nTuas promessas\npra mim!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -582,15 +504,21 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Quando tudo obscurece devido ao Teu esplendor",
+        "text": "Quando tudo obscurece \ndevido ao Teu esplendor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Adorarei! (Adorarei) Adorarei! (Sim, eu adorarei) \nEu vivo, ó Senhor, só pra Te adorar... (2X)",
-        "isRefrao": false,
+        "text": "Adorarei! (Adorarei) Adorarei! (Sim, eu adorarei) \nEu vivo, ó Senhor, \nsó pra Te adorar...",
+        "isRefrao": true,
         "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -629,32 +557,21 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "[REFRÃO 2X]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "ALFA E ÔMEGA",
-    "sections": [
-      {
-        "text": "No nome forte de Jesus\nNos reunimos aquecidos por Sua luz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Por meio do Senhor, unidos neste amor \nCom vinho e pão nós celebramos comunhão [2X]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      }
-    ]
-  },
-  {
-    "title": "Alguém como eu",
+    "title": "ALGUÉM COMO EU",
     "sections": [
       {
         "text": "Não consigo entender o amor\nQue Cristo tem por mim\nSendo eu tão pecador,\nSendo eu tão falho assim",
@@ -681,13 +598,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Amou a mim, um verme vil\nTão pecador, a Ele hostil",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tomou por Seu castigo o meu\nComo pôde amar alguém como eu?",
+        "text": "Amou a mim, um verme vil\nTão pecador, a Ele hostil\nTomou por Seu castigo o meu\nComo pôde amar alguém como eu?",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -725,7 +636,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Alto Preço",
+    "title": "ALTO PREÇO",
     "sections": [
       {
         "text": "Eu sei que foi pago um alto preço\nPara que contigo eu fosse um, \nMeu irmão",
@@ -746,14 +657,20 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "E na força do Espírito Santo\nnós proclamamos aqui\nQue pagaremos o preço de sermos \num só coração no Senhor\nE por mais que as trevas militem\ne nos tentem separar\nCom os nossos olhos em Cristo Jesus, unidos iremos andar",
-        "isRefrao": false,
+        "text": "E na força do Espírito Santo\nnós proclamamos aqui\nQue pagaremos o preço de sermos \num só coração no Senhor",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "E por mais que as trevas militem\ne nos tentem separar\nCom os nossos olhos em Cristo Jesus, unidos iremos andar",
+        "isRefrao": true,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -846,193 +763,49 @@ const LOUVORES_DATA = [
     "title": "AMOR FRATERNAL 381CC",
     "sections": [
       {
-        "text": "Jesus, Pastor amado,",
+        "text": "Jesus, Pastor amado,\nContempla-nos aqui;\nConcede que sejamos\nUm corpo só em Ti.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Contempla-nos aqui;",
+        "text": "Contendas e malícias\nQue longe de nós vão!\nNenhum desgosto impeça\nA nossa comunhão.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Concede que sejamos",
+        "text": "Pois sendo resgatados\nPor um só Salvador\nDevemos ser unidos\nPor um mais forte amor.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Um corpo só em Ti",
+        "text": "Olhar com empatia\nOs erros de um irmão\nE todos ajudá-lo\nCom branda compaixão.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Contendas e malícias",
+        "text": "Jesus, suave e meigo,\nEnsina-nos a amar,\nE como Tu sejamos\nTambém no perdoar!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Que longe de nós vão!",
+        "text": "Ah, quanto carecemos\nDe auxílio do Senhor!\nUnidos supliquemos\nA Deus por esse amor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Nenhum desgosto impeça",
+        "text": "Se Tua igreja toda\nAndar em santa união,\nEntão será bendito\nO nome de Cristão.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "A nossa comunhão.",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois sendo resgatados",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Por um só Salvador",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Devemos ser unidos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Por um mais forte amor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Olhar com empatia",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Os erros de um irmão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E todos ajudá-lo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Com branda compaixão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Jesus, suave e meigo,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ensina-nos a amar,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E como Tu sejamos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Também no perdoar!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ah, quanto carecemos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "De auxílio do Senhor!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Unidos supliquemos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A Deus por esse amor!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se Tua igreja toda",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Andar em santa união,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Então será bendito",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O nome de Cristão;",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Assim o que pediste",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Em nós se cumprirá,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E todo o mundo inteiro",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A Ti conhecerá.",
+        "text": "Assim o que pediste\nEm nós se cumprirá,\nE todo o mundo inteiro\nA Ti conhecerá.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1096,31 +869,19 @@ const LOUVORES_DATA = [
     "title": "AO ORARMOS",
     "sections": [
       {
-        "text": "Ao orarmos, Senhor, \nVem encher-nos com Teu amor",
+        "text": "Ao orarmos, Senhor, \nVem encher-nos com Teu amor\nPara o mundo agitado esquecer, \nCada dia Tua vida viver",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Para o mundo agitado esquecer, \nCada dia Tua vida viver",
+        "text": "Nossas vidas vem, pois, transformar \nRefrigério pra alma nos dar\nE agora, com outros irmãos, \nNos unimos a Ti em oração",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Nossas vidas vem, pois, transformar \nRefrigério pra alma nos dar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E agora, com outros irmãos, \nNos unimos a Ti em oração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -1137,67 +898,49 @@ const LOUVORES_DATA = [
     "title": "AO PASTOR COM CARINHO",
     "sections": [
       {
-        "text": "AO PASTOR COM CARINHO",
+        "text": "Há um pastor maior\nNa vida do pastor\nE o que seria do pastor\nAh, se não fosse o Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Há um pastor maior\nNa vida do pastor\nE o que seria do pastor\nAh, se não fosse o Senhor\nE o que seria da igreja\nSe não fosse o amor\nDaqueles a quem Deus\nUm dia, consagrou",
+        "text": "E o que seria da igreja\nSe não fosse o amor\nDaqueles a quem Deus\nUm dia, consagrou",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pastor que também é ovelha\nE é por Deus apascentado\nVem hoje aos braços do amado\nE lança todos os teus fardos\nSe às vezes, sobrecarregado\nTe sentes desorientado\nO teu clamor é sempre ouvido\nJesus sempre estará contigo",
+        "text": "Pastor que também é ovelha\nE é por Deus apascentado\nVem hoje aos braços do amado\nE lança todos os teus fardos",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Ser um pastor é bem assim\nSe sente só na multidão\nE às vezes pede o coração\nUm ombro amigo, um irmão\nMas é nos braços do Senhor\nQue tu encontras teu valor\nSe o preço é alto, meu irmão\nGrande é teu galardão",
+        "text": "Se às vezes, sobrecarregado\nTe sentes desorientado\nO teu clamor é sempre ouvido\nJesus sempre estará contigo",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pastor que também é ovelha\nE é por Deus apascentado\nVem hoje aos braços do amado\nE lança todos os teus fardos\nSe às vezes, sobrecarregado\nTe sentes desorientado\nO teu clamor é sempre ouvido\nJesus sempre estará contigo",
+        "text": "Ser um pastor é bem assim\nSe sente só na multidão\nE às vezes pede o coração\nUm ombro amigo, um irmão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Jesus é que é o bom pastor\nEle é Teu amigo e Teu Senhor\nE sempre estará contigo",
+        "text": "Mas é nos braços do Senhor\nQue tu encontras teu valor\nSe o preço é alto, meu irmão\nGrande é teu galardão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "AO PASTOR COM CARINHO",
+        "text": "Pastor que também é ovelha\nE é por Deus apascentado\nVem hoje aos braços do amado\nE lança todos os teus fardos",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Há um pastor maior\nNa vida do pastor\nE o que seria do pastor\nAh, se não fosse o Senhor\nE o que seria da igreja\nSe não fosse o amor\nDaqueles a quem Deus\nUm dia, consagrou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pastor que também é ovelha\nE é por Deus apascentado\nVem hoje aos braços do amado\nE lança todos os teus fardos\nSe às vezes, sobrecarregado\nTe sentes desorientado\nO teu clamor é sempre ouvido\nJesus sempre estará contigo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ser um pastor é bem assim\nSe sente só na multidão\nE às vezes pede o coração\nUm ombro amigo, um irmão\nMas é nos braços do Senhor\nQue tu encontras teu valor\nSe o preço é alto, meu irmão\nGrande é teu galardão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pastor que também é ovelha\nE é por Deus apascentado\nVem hoje aos braços do amado\nE lança todos os teus fardos\nSe às vezes, sobrecarregado\nTe sentes desorientado\nO teu clamor é sempre ouvido\nJesus sempre estará contigo",
+        "text": "Se às vezes, sobrecarregado\nTe sentes desorientado\nO teu clamor é sempre ouvido\nJesus sempre estará contigo",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1214,22 +957,16 @@ const LOUVORES_DATA = [
     "title": "AO ÚNICO",
     "sections": [
       {
-        "text": "Ao único que é digno de receber\na honra e a glória, a força e o poder",
-        "isRefrao": false,
+        "text": "Ao único que é digno de receber\na honra e a glória, a força e o poder\nAo Rei eterno, imortal,\ninvisível, mas real\na Ele ministramos o louvor",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Ao Rei eterno, imortal,\ninvisível, mas real\na Ele ministramos o louvor",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
-      },
-      {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
       },
       {
         "text": "Adoramos a Ti, ó rei Jesus\nAdoramos a Ti, ó rei Jesus\nAdoramos o Teu nome\nnos rendemos aos Teus pés",
@@ -1244,10 +981,10 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "Adoramos a Ti, ó rei Jesus\nAdoramos a Ti, ó rei Jesus\nAdoramos o Teu nome\nnos rendemos aos Teus pés",
@@ -1268,7 +1005,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Consagramos todo o nosso ser a Ti (2x)",
+        "text": "Consagramos todo o nosso ser a Ti\nConsagramos todo o nosso ser a Ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1285,50 +1022,26 @@ const LOUVORES_DATA = [
     "title": "AS MARCAS DE CRISTO",
     "sections": [
       {
-        "text": "Nenhum só plano Teu, Senhor,",
+        "text": "Nenhum só plano Teu, Senhor, \nDeixará de se cumprir\nO que Tua palavra diz \nA respeito de mim, jamais irá cair",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Deixará de se cumprir\nO que Tua palavra diz \nA respeito de mim, jamais irá cair",
+        "text": "Toda a criação espera\nVer Tua glória em nós brilhar\nNisto eu empenho a minha vida\nNenhuma pedra vai clamar em meu lugar!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Toda a criação espera\nVer Tua glória em nós brilhar\nNisto eu empenho a minha vida",
-        "isRefrao": false,
+        "text": "Eu tenho a marca de Cristo em mim\nEm meu coração está escrito o Seu nome\nSeguir os Seus passos é desejo meu\nE corresponder ao chamado de Deus",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Nenhuma pedra vai clamar em meu lugar!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu tenho a marca de Cristo em mim\nEm meu coração está escrito o Seu nome",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Seguir os Seus passos é desejo meu\nE corresponder ao chamado de Deus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu tenho a marca de Cristo em mim\nProssigo vencendo como Ele venceu",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Persigo o destino escrito pra mim \nDe herdar o Seu reino andando em vitória \nE corresponder ao chamado de Deus!",
-        "isRefrao": false,
+        "text": "Eu tenho a marca de Cristo em mim\nProssigo vencendo como Ele venceu\nPersigo o destino escrito pra mim \nDe herdar o Seu reino andando em vitória \nE corresponder ao chamado de Deus!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -1352,7 +1065,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -1375,7 +1088,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Aviva-nos, Senhor!\nEis nossa petição.\nAteia o fogo do alto céu\nem cada coração!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -1387,7 +1100,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -1399,7 +1112,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -1415,7 +1128,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Me envolves com Teu amor \nE por isso eu sou mais feliz (2X)",
+        "text": "Me envolves com Teu amor \nE por isso eu sou mais feliz [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1433,7 +1146,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Me envolves com Teu amor \nE por isso eu sou mais feliz (2X)",
+        "text": "Me envolves com Teu amor \nE por isso eu sou mais feliz [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1474,7 +1187,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Pois aos que temem bem nenhum \nLhes faltará",
+        "text": "Pois aos que temem \nbem nenhum lhes faltará",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1486,7 +1199,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Pois aos que temem bem nenhum \nLhes faltará",
+        "text": "Pois aos que temem \nbem nenhum lhes faltará",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1497,100 +1210,58 @@ const LOUVORES_DATA = [
     "title": "BENDITO O CORDEIRO (123 CC)",
     "sections": [
       {
-        "text": "Seja bendito o Cordeiro\nQue na cruz por nós padeceu",
+        "text": "Seja bendito o Cordeiro\nQue na cruz por nós padeceu  \nSeja bendito o Seu sangue\nQue por nós pecadores verteu",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Seja bendito o Seu sangue\nQue por nós pecadores verteu",
+        "text": "Eis, nesse sangue lavados,\nCom roupas que tão alvas são\nOs pecadores remidos\nQue perante seu Deus hoje estão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Eis, nesse sangue lavados,\nCom roupas que tão alvas são",
+        "text": "Alvo mais que a neve!\nAlvo mais que a neve!\nSim, nesse sangue lavado, \nMais alvo que a neve serei!",
+        "isRefrao": true,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Quão espinhosa a coroa\nQue Jesus por nós suportou!\nÓ quão profundas as chagas\nQue nos provam o quanto Ele amou!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Os pecadores remidos\nQue perante seu Deus hoje estão",
+        "text": "Eis, nessas chagas, pureza\nPara o mais torpe pecador!\nPois, que mais alvos que a neve,\nO Teu sangue nos torna, Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Alvo mais que a neve!\nAlvo mais que a neve!",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "Se nós a Ti confessarmos,\ne seguirmos na Tua luz\nTu não somente perdoas, \npurificas também, ó Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Sim, nesse sangue lavado, \nMais alvo que a neve serei!",
+        "text": "Sim, e de todo pecado!\nQue maravilha desse amor!\nPois, que mais alvos que a neve,\no Teu sangue nos torna, Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Quão espinhosa a coroa\nQue Jesus por nós suportou!",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
-      },
-      {
-        "text": "Ó quão profundas as chagas\nQue nos provam o quanto Ele amou!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eis, nessas chagas, pureza\nPara o mais torpe pecador!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois, que mais alvos que a neve,\nO Teu sangue nos torna, Senhor!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
-      },
-      {
-        "text": "Se nós a Ti confessarmos,\ne seguirmos na Tua luz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tu não somente perdoas, \npurificas também, ó Jesus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sim, e de todo pecado!\nQue maravilha desse amor!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois, que mais alvos que a neve,\no Teu sangue nos torna, Senhor!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
       }
     ]
   },
@@ -1604,7 +1275,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Tempo para isso, \nTempo para louvarmos a Deus\nNum só amor, num só espírito (2X)",
+        "text": "Tempo para isso, \nTempo para louvarmos a Deus\nNum só amor, num só espírito [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1616,7 +1287,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Deus, venha nos abençoar\nE que esta união nunca falte para nós (2X)",
+        "text": "Deus, venha nos abençoar\nE que esta união nunca falte para nós [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1693,7 +1364,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Cessará no céu o pranto\nPois não haverá mais dor\nE ouvir-se-á o canto\nDos remidos do Senhor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -1705,7 +1376,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -1716,8 +1387,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -1746,13 +1417,13 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Brilha Jesus! Mostra ao mundo\na Luz de Deus Pai\nEspírito de Deus, vem refulge em nós",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "Faz transbordar sobre os povos\nTua graça e perdão\nVem ordenar Que haja Luz ó Senhor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -1776,7 +1447,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -1793,8 +1464,14 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -1811,7 +1488,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Brilho celeste, brilho celeste!\nEnche a minha alma, a glória de Deus\nCom aleluias sigo cantando\nCanto louvores indo pra os céus!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -1823,7 +1500,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -1835,7 +1512,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -1874,109 +1551,49 @@ const LOUVORES_DATA = [
     "title": "CALMO, SERENO E TRANQUILO",
     "sections": [
       {
-        "text": "Calmo, sereno e tranquilo",
+        "text": "Calmo, sereno e tranquilo\nSinto descanso neste viver",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Sinto descanso neste viver",
+        "text": "Isto devo a um amigo\nE só por ele eu pude obter",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Isto devo a um amigo",
+        "text": "Ele é Jesus, meu amigo\nMeu Senhor e Salvador",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E só por ele eu pude obter",
+        "text": "Só por ele ganhei\nA vida eterna com Deus,\ncom Deus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Ele é Jesus, meu amigo",
+        "text": "Triste foi sua história\nLevado à cruz sem pecado algum",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Meu Senhor e Salvador",
+        "text": "Só porque me amou\nMorreu por mim e não hesitou",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Só por ele ganhei",
+        "text": "Ele é Jesus, meu amigo\nMeu Senhor e Salvador",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "A vida eterna com Deus,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "com Deus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Triste foi sua história",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Levado à cruz sem pecado algum",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Só porque me amou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Morreu por mim e não hesitou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ele é Jesus, meu amigo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Meu Senhor e Salvador",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Só por ele ganhei",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A vida eterna com Deus,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "com Deus, com Deus!",
+        "text": "Só por ele ganhei\nA vida eterna com Deus,\ncom Deus, com Deus!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -1987,133 +1604,37 @@ const LOUVORES_DATA = [
     "title": "CANTAI LOUVORES 85 CC",
     "sections": [
       {
-        "text": "Ó vinde crentes e entoai louvores a Jesus",
+        "text": "Ó vinde crentes e entoai louvores a Jesus\nQue, para a nossa salvação,\nFoi morto numa cruz\nSeu sangue derramou, de tudo me lavou,\nMais alvo do que a neve me tornou",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Que, para a nossa salvação,",
+        "text": "O sangue de Jesus\nMe lavou, me lavou!\nO sangue de Jesus\nMe lavou, me lavou!\nAlegre cantarei louvores a meu Rei\nA meu Senhor Jesus que me salvou",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Foi morto numa cruz",
+        "text": "Conosco vinde vos unir\nNa guerra contra o mal\nE com o nosso Salvador\nEm marcha triunfal\nA todos proclamar a graça e Seu poder\nSeu sangue derramou pra nos salvar!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Seu sangue derramou, de tudo me lavou,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Mais alvo do que a neve me tornou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O sangue de Jesus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Me lavou, me lavou! (2X)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Alegre cantarei louvores a meu Rei",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A meu Senhor Jesus que me salvou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Conosco vinde vos unir",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Na guerra contra o mal",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E com o nosso Salvador",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Em marcha triunfal",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A todos proclamar a graça e Seu poder",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Seu sangue derramou pra nos salvar!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
+        "text": "[REFRÃO]",
         "isRefrao": false,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "O Capitão da salvação é Cristo, o Salvador",
+        "text": "O Capitão da salvação é Cristo, o Salvador\no Rei dos reis, o Redentor,\nJesus, o bom Senhor\nPois tudo vencerá, vitória nos dará\nÀ glória, salvos, nos conduzirá!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "o Rei dos reis, o Redentor,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Jesus, o bom Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois tudo vencerá, vitória nos dará",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "À glória, salvos, nos conduzirá!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
+        "text": "[REFRÃO]",
         "isRefrao": false,
         "isRef": true,
         "isInstruction": false
@@ -2124,103 +1645,55 @@ const LOUVORES_DATA = [
     "title": "CASTELO FORTE (323 CC)",
     "sections": [
       {
-        "text": "Castelo forte é nosso Deus,\nEspada e bom escudo",
+        "text": "Castelo forte é nosso Deus,\nEspada e bom escudo\nCom Seu poder defende os seus\nem todo transe agudo",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Com Seu poder defende os seus\nem todo transe agudo",
+        "text": "Com fúria pertinaz, persegue Satanás\nCom artimanhas tais,\nE astúcias tão cruéis \nque iguais não há na terra",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Com fúria pertinaz, persegue Satanás",
+        "text": "A nossa força nada faz,\nestamos, sim, perdidos\nMas nosso Deus socorro traz \ne somos protegidos",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Com artimanhas tais,\nE astúcias tão cruéis \nque iguais não há na terra",
+        "text": "Defende-nos Jesus, \no que venceu na cruz\nSenhor dos altos céus e, \nsendo o próprio Deus, \ntriunfa na batalha",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "A nossa força nada faz,\nestamos, sim, perdidos",
+        "text": "Se nos quisessem devorar \ndemônios não contados\nNão nos podiam assustar, \nnem somos derrotados",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Mas nosso Deus socorro traz e somos protegidos",
+        "text": "O grande acusador \ndos servos do Senhor\nJá condenado está, \nvencido cairá \npor uma só palavra",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Defende-nos Jesus, o que venceu na cruz",
+        "text": "Sim, que a palavra ficará, \nsabemos com certeza\nE nada nos assustará \ncom Cristo por defesa",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Senhor dos altos céus e, sendo o próprio Deus, triunfa na batalha",
+        "text": "Se temos de perder \nos filhos, bens, mulher,\nEmbora a vida vá, \npor nós Jesus está",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Se nos quisessem devorar \ndemônios não contados",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Não nos podiam assustar, \nnem somos derrotados",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O grande acusador dos servos do Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Já condenado está, vencido cairá \npor uma só palavra",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sim, que a palavra ficará, \nsabemos com certeza",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E nada nos assustará \ncom Cristo por defesa",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se temos de perder \nos filhos, bens, mulher,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Embora a vida vá, por nós Jesus está",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E dar-nos-á Seu reino. (2X)",
+        "text": "E dar-nos-á Seu reino.\nE dar-nos-á Seu reino.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2238,7 +1711,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Foi na cruz, foi na cruz onde um dia eu vi\nMeu pecado castigado em Jesus\nFoi ali, pela fé, que meus olhos abri\nE eu agora me alegro em Sua luz",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -2250,7 +1723,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -2262,7 +1735,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -2274,7 +1747,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -2291,7 +1764,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Justificado no Senhor!\nSantificado em Jesus!\nTeu sangue trouxe-me o perdão,\nE ainda me glorificarás",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -2303,7 +1776,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -2315,7 +1788,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -2327,7 +1800,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -2420,20 +1893,14 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Confiarei em Ti, Senhor! \nMinha esperança está em Ti!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Não há maior prazer do que saber \nQue o meu Deus cuida de mim!",
-        "isRefrao": false,
+        "text": "Confiarei em Ti, Senhor! \nMinha esperança está em Ti!\nNão há maior prazer do que saber \nQue o meu Deus cuida de mim!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REPETE ACIMA]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": true
       },
@@ -2451,12 +1918,12 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Confiarei em Ti! (3x)",
+        "text": "Confiarei em Ti! [3X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2479,19 +1946,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Mas Jesus Cristo veio e me achou\nAssim tão sujo",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E numa cruz por mim derramou\nSangue tão puro",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Foi assim que me salvou",
+        "text": "Mas Jesus Cristo veio e me achou\nAssim tão sujo\nE numa cruz por mim derramou\nSangue tão puro\nFoi assim que me salvou",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -2544,7 +1999,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -2573,25 +2028,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Vejo a grandeza do Teu poder\nVejo a beleza do Teu querer",
+        "text": "Vejo a grandeza do Teu poder\nVejo a beleza do Teu querer\nVejo a fraqueza que há em meu ser, \noh! Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Vejo a fraqueza que há em meu ser, \noh! Senhor",
+        "text": "Quero louvar, quero adorar, \nquero honrar Teu Nome\nQuero Te dar todo meu ser, \nsempre Te bendizer!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Quero louvar, quero adorar, \nquero honrar Teu Nome",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quero Te dar todo meu ser, \nsempre Te bendizer! (2x)",
+        "text": "Quero louvar, quero adorar, \nquero honrar Teu Nome\nQuero Te dar todo meu ser, \nsempre Te bendizer!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2615,7 +2064,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "É o nosso Deus, no Seu trono está\nVamos adorá-Lo\nÉ o nosso Rei, não há outro igual\nVamos adorá-Lo",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -2627,7 +2076,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -2638,20 +2087,15 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
-      }
-    ]
-  },
-  {
-    "title": "CONTENTAMENTO",
-    "sections": [
+      },
       {
-        "text": "Com vinho",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       }
     ]
@@ -2666,55 +2110,31 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Se sofri, minha dor quero Te ofertar",
+        "text": "Se sofri, minha dor \nquero Te ofertar\nSe esqueci Teu favor, \nquero retornar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Se esqueci Teu favor, quero retornar",
+        "text": "Quero aqui, e onde for, \ntudo Te entregar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Quero aqui, e onde for, tudo Te entregar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Agora que achei o Teu altar\nLá fora cansei demais",
+        "text": "Agora que achei o Teu altar\nLá fora cansei demais\nMinora o sofrer do meu penar\nConsola-me com Tua paz",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Minora o sofrer do meu penar\nConsola-me com Tua paz",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se ofendi meu irmão venho confessar",
+        "text": "Se ofendi meu irmão \nvenho confessar\nSe retive o perdão, \ndá-me o perdoar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Se retive o perdão, dá-me o perdoar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sei que em Ti todo amor há de triunfar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Deixo aqui meu louvor sobre o Teu altar",
+        "text": "Sei que em Ti todo amor \nhá de triunfar\nDeixo aqui meu louvor \nsobre o Teu altar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2726,7 +2146,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Consola-me com Tua paz [2X]",
+        "text": "Consola-me com Tua paz\nConsola-me com Tua paz",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2756,7 +2176,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -2768,7 +2188,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -2778,73 +2198,19 @@ const LOUVORES_DATA = [
     "title": "CORAÇÃO IGUAL AO TEU",
     "sections": [
       {
-        "text": "Se tu olhares Senhor pra dentro de mim",
+        "text": "Se tu olhares Senhor \npra dentro de mim\nNada encontrarás de bom",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Nada encontrarás de bom",
+        "text": "Mas um desejo eu tenho, \nDe ser transformado\nPreciso tanto do Teu perdão, \nDá-me um novo coração",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Mas um desejo eu tenho,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "De ser transformado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Preciso tanto do Teu perdão,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dá-me um novo coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dá-me um coração igual ao Teu,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Meu Mestre",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dá-me um coração igual ao Teu",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Coração disposto a obedecer,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Cumprir todo o Teu querer",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dá-me um coração igual ao Teu",
+        "text": "Dá-me um coração igual ao Teu, \nMeu Mestre\nDá-me um coração igual ao Teu\nCoração disposto a obedecer, \nCumprir todo o Teu querer \nDá-me um coração igual ao Teu",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2856,43 +2222,31 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Ensina-me a amar o meu irmão",
+        "text": "Ensina-me a amar o meu irmão\nA olhar com os Teus olhos, \nPerdoar com Teu perdão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "A olhar com os Teus olhos,",
+        "text": "Enche-me com Teu Espírito, \nEndireita os meus caminhos,\nOh Deus, dá-me um novo coração",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Perdoar com Teu perdão",
+        "text": "Enche-me com Teu Espírito, \nEndireita os meus caminhos,\nOh Deus, dá-me um novo coração",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Enche-me com Teu Espírito,",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Endireita os meus caminhos,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Oh Deus, dá-me um novo coração (2x)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão] - Dá-me um coração igual ao Teu",
+        "text": "Dá-me um coração igual ao Teu",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2953,7 +2307,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Corpo e família",
+    "title": "CORPO E FAMÍLIA",
     "sections": [
       {
         "text": "Recebi um novo coração do Pai\nCoração regenerado, coração transformado,\nCoração que é inspirado por Jesus",
@@ -2962,13 +2316,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Como fruto desse novo coração\nEu declaro a paz de Cristo,\nTe abençoo, meu irmão.\nPreciosa é a nossa comunhão",
+        "text": "Como fruto desse novo coração\nEu declaro a paz de Cristo,\nTe abençoo, meu irmão.\nPreciosa é a nossa comunhão.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Somos corpo e assim bem ajustados,\nTotalmente ligados, unidos,\nVivendo em amor! \nUma família sem qualquer falsidade,\nVivendo a verdade,\nExpressando a glória do Senhor",
+        "text": "Somos corpo e assim bem ajustados,\nTotalmente ligados, unidos,\nVivendo em amor!",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Uma família sem qualquer falsidade,\nVivendo a verdade,\nExpressando a glória do Senhor.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -2997,145 +2357,61 @@ const LOUVORES_DATA = [
     "title": "CRER E OBSERVAR 301CC",
     "sections": [
       {
-        "text": "Em Jesus confiar, Sua lei observar",
+        "text": "Em Jesus confiar, Sua lei observar\nOh que gozo, que benção, que paz!\nSatisfeito guardar tudo quanto ordenar\nAlegria perene nos traz",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Oh que gozo, que benção, que paz!",
+        "text": "Crer e observar tudo quanto ordenar\nO fiel obedece ao que Cristo mandar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Satisfeito guardar tudo quanto ordenar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Alegria perene nos traz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Crer e observar tudo quanto ordenar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O fiel obedece ao que Cristo mandar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O inimigo falaz e a calúnia mordaz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Cristo pode desprestigiar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nem tristeza, nem dor, nem a intriga maior",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Poderão ao fiel abalar",
+        "text": "O inimigo falaz e a calúnia mordaz\nCristo pode desprestigiar\nNem tristeza, nem dor, nem a intriga maior\nPoderão ao fiel abalar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Que delícia de amor,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Comunhão com o Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tem o crente zeloso e leal",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O Seu rosto mirar, Seus segredos privar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Seu consolo constante e real",
+        "text": "Que delícia de amor, \nComunhão com o Senhor\nTem o crente zeloso e leal\nO Seu rosto mirar, Seus segredos privar\nSeu consolo constante e real",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Resolutos, Senhor, e com fé, zelo e ardor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Os Teus passos queremos seguir",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Teus preceitos guardar o Teu nome exaltar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sempre a Tua vontade cumprir",
+        "text": "Resolutos, Senhor, e com fé, zelo e ardor\nOs Teus passos queremos seguir\nTeus preceitos guardar o Teu nome exaltar\nSempre a Tua vontade cumprir",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "Cria em mim",
+    "title": "CRIA EM MIM",
     "sections": [
       {
         "text": "Cria em mim ó Deus, \nCria em mim ó Deus um coração puro\nE renova, e renova um espírito inabalável",
-        "isRefrao": true,
+        "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
@@ -3152,7 +2428,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Eu quero ser, eu quero ser\nUm homem segundo\nO coração de Deus [2X]",
+        "text": "Eu quero ser, eu quero ser\nUm homem segundo\nO coração de Deus",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Eu quero ser, eu quero ser\nUm homem segundo\nO coração de Deus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3241,126 +2523,48 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO] ((2X)",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "Cristo Esperança Na Vida e Na Morte",
+    "title": "CRISTO ESPERANÇA NA VIDA E NA MORTE",
     "sections": [
       {
-        "text": "A esperança em vida e morte",
+        "text": "A esperança em vida e morte\nCristo é, Cristo é\nEm que confia nosso ser\nA Deus somente pertencer",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Cristo é, Cristo é",
+        "text": "Quem nos sustenta com poder\nQuem foge ao seu pleno querer\nE quem nos guarda até o final\nÉ seu amor Cristo eternal",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Em que confia nosso ser",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A Deus somente pertencer",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem nos sustenta com poder",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem foge ao seu pleno querer",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E quem nos guarda até o final",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "É seu amor Cristo eternal",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Cante aleluia, eterna esperança",
+        "text": "Cante aleluia, eterna esperança\nCante aleluia, a razão da nossa fé\nNa vida e morte Cristo é",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Cante aleluia, a razão da nossa fé",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Na vida e morte Cristo é",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem pode dar a alma paz",
+        "text": "Quem pode dar a alma paz\nDeus é bom, Deus é bom\nComo sua graça é eficaz\nEm seu sangue redentor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Deus é bom, Deus é bom",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Como sua graça é eficaz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Em seu sangue redentor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem nos dá fé quando há temor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem tem poder sobre o caos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem nos conduz em meio ao mar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Até a Cristo encontrar!",
+        "text": "Quem nos dá fé quando há temor\nQuem tem poder sobre o caos\nQuem nos conduz em meio ao mar\nAté a Cristo encontrar!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3372,67 +2576,31 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "E quando o fim, então chegar",
+        "text": "E quando o fim, então chegar\nVivo estás, vivo estás\nQue recompensa o céu trará\nEterna vida com Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Vivo estás, vivo estás",
+        "text": "Ele irá nos encontrar\nA morte então destruirá\nEm alegria festejar\nEternamente Cristo em nós",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Que recompensa o céu trará",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eterna vida com Jesus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ele irá nos encontrar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A morte então destruirá",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Em alegria festejar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eternamente Cristo em nós",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REFRÃO] 2X",
+        "text": "[REFRÃO]",
         "isRefrao": true,
-        "isRef": false,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "A razão da nossa fé",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Na vida e morte Cristo é",
+        "text": "A razão da nossa fé\nNa vida e morte Cristo é",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3443,68 +2611,38 @@ const LOUVORES_DATA = [
     "title": "CRISTO EXALTADO (67 CC)",
     "sections": [
       {
-        "text": "Eis entronizado à destra do bom Deus,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Como Rei eterno, Cristo, lá nos céus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ele é Rei da glória que à Satã venceu,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Feita tal vitória, Deus o recebeu",
+        "text": "Eis entronizado à destra do bom Deus, \nComo Rei eterno, Cristo, lá nos céus\nEle é Rei da glória que à Satã venceu, \nFeita tal vitória, Deus o recebeu",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "Pela Sua graça, pelo Seu amor\nSeja dado a Cristo cordial louvor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Veio resgatar-nos pela Sua cruz\nQuer apresentar-nos em celeste luz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pela Sua morte, pelo Seu sofrer,\nO inimigo nunca poderá vencer",
+        "text": "Veio resgatar-nos pela Sua cruz\nQuer apresentar-nos em celeste luz\nPela Sua morte, pelo Seu sofrer,\nO inimigo nunca poderá vencer",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Mas o Seu serviço continua ali\nPoderá valer-nos, entretanto, aqui",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Por nós advogando com o Pai está\nEle nos ajuda e sempre ajudará",
+        "text": "Mas o Seu serviço continua ali\nPoderá valer-nos, entretanto, aqui\nPor nós advogando com o Pai está\nEle nos ajuda e sempre ajudará",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -3514,7 +2652,7 @@ const LOUVORES_DATA = [
     "title": "CRISTO LEVOU SOBRE SI",
     "sections": [
       {
-        "text": "Cristo levou sobre si as nossas dores\nCristo levou sobre si as nossas transgressões",
+        "text": "Cristo levou sobre si \nas nossas dores\nCristo levou sobre si \nas nossas transgressões",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3567,22 +2705,16 @@ const LOUVORES_DATA = [
     "title": "CRISTO MINHA SEGURANÇA",
     "sections": [
       {
-        "text": "Cristo minha segurança,\na Ele fiel serei",
-        "isRefrao": false,
+        "text": "Cristo minha segurança,\na Ele fiel serei\nCristo minha segurança,\nSomente a Ele darei louvor!\nSomente a Ele darei louvor!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Cristo minha segurança,\nSomente a Ele darei louvor!\nSomente a Ele darei louvor!",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
-      },
-      {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
       },
       {
         "text": "Sim, é meu protetor\nRocha da salvação\nEle me prometeu\nEterno lar, com Ele vou!",
@@ -3591,10 +2723,10 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "Ele é fiel pra mim\nSim, o meu guia é\nSempre me traz a paz\nBem certo estou,\ncom Ele vou!",
@@ -3603,10 +2735,10 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       }
     ]
   },
@@ -3627,55 +2759,37 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Com Cristo estou contente\nEle me satisfaz",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "Com esse amor do Salvador\nAgora estou contente,\nAgora estou contente!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Do mundo as honras para mim\nPerderam seu valor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Já tenho a paz divina, enfim,\nServindo ao meu Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Terei meu gozo principal\nAo vê-lo em glória triunfal",
+        "text": "Do mundo as honras para mim\nPerderam seu valor\nJá tenho a paz divina, enfim,\nServindo ao meu Senhor\nTerei meu gozo principal\nAo vê-lo em glória triunfal",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Até que esteja lá no céu\nAonde Cristo entrou\nE veja a face já sem véu\nDe quem me resgatou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Desejo só aqui viver\nDe um modo que Lhe dê prazer",
+        "text": "Até que esteja lá no céu\nAonde Cristo entrou\nE veja a face já sem véu\nDe quem me resgatou\nDesejo só aqui viver\nDe um modo que Lhe dê prazer",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -3780,7 +2894,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Oferta suave de um adorador! [2X]",
+        "text": "Oferta suave de um adorador! \nOferta suave de um adorador!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3809,13 +2923,13 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "O Senhor, o Criador, \nquer que todos tenham vida\nO Senhor, o Criador, \nainda ama o que criou (2 X)",
+        "text": "O Senhor, o Criador, \nquer que todos tenham vida\nO Senhor, o Criador, \nainda ama o que criou [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "O Seu único Filho, o Seu amado Filho... (2 X)",
+        "text": "O Seu único Filho, o Seu amado Filho... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3845,7 +2959,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Venham todos que querem vida\nQue têm sede de água viva\ne querem andar na luz  (3 X)",
+        "text": "Venham todos que querem vida\nQue têm sede de água viva\ne querem andar na luz  [3 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3853,34 +2967,22 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Deus cuidará de ti (344 CC)",
+    "title": "DEUS CUIDARÁ DE TI (344 CC)",
     "sections": [
       {
-        "text": "Aflito e triste coração Deus cuidará de ti \nPor ti opera a sua mão Que cuidará de ti",
+        "text": "Aflito e triste coração \nDeus cuidará de ti \nPor ti opera a sua mão \nQue cuidará de ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Deus cuidará de ti Em cada dia proverá \nSim, cuidará de ti Deus cuidará de ti",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Na dor cruel, na provação Deus cuidará de ti \nSocorro dá e salvação Pois cuidará de ti",
+        "text": "Deus cuidará de ti \nEm cada dia proverá \nSim, cuidará de ti \nDeus cuidará de ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO]",
-        "isRefrao": true,
-        "isRef": true,
-        "isInstruction": false
-      },
-      {
-        "text": "A tua fé Deus quer provar Mas cuidará de ti \nO teu amor quer aumentar E cuidará de ti",
+        "text": "Na dor cruel, na provação \nDeus cuidará de ti \nSocorro dá e salvação \nPois cuidará de ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3892,7 +2994,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Nos seus tesouros tudo tens Deus cuidará de ti \nTerrestres e celestes bens E cuidará de ti",
+        "text": "A tua fé Deus quer provar \nMas cuidará de ti \nO teu amor quer aumentar \nE cuidará de ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3904,7 +3006,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "O que é mister te pode dar Quem cuidará de ti \nNos braços seus te sustentar Pois cuidará de ti",
+        "text": "Nos seus tesouros tudo tens \nDeus cuidará de ti \nTerrestres e celestes bens \nE cuidará de ti",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "O que é mister te pode dar \nQuem cuidará de ti \nNos braços seus te sustentar \nPois cuidará de ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3927,13 +3041,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Aqui reunidos para juntos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Render louvores a Ti",
+        "text": "Aqui reunidos para juntos \nRender louvores a Ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3945,13 +3053,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Mas que Teu Santo Espírito coloque-a",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Em nossos corações",
+        "text": "Mas que Teu Santo Espírito coloque-a \nEm nossos corações",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -3969,7 +3071,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -3980,37 +3082,25 @@ const LOUVORES_DATA = [
     "title": "DEUS SOMENTE DEUS",
     "sections": [
       {
-        "text": "Deus, Somente Deus\nCriou o mundo e o que nele há",
+        "text": "Deus, Somente Deus\nCriou o mundo \ne o que nele há",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "O ser que pode respirar\nExiste pra mostrar a glória do Senhor",
+        "text": "O ser que pode respirar\nExiste pra mostrar \na glória do Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Deus, Somente Deus\nOs Seus mistérios pode revelar",
+        "text": "Deus, Somente Deus\nOs Seus mistérios \npode revelar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Os Seus desígnios quem jamais",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Um dia conheceu",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois Deus somente é Deus",
+        "text": "Os Seus desígnios quem jamais\nUm dia conheceu\nPois Deus somente é Deus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4034,7 +3124,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -4098,7 +3194,7 @@ const LOUVORES_DATA = [
     "title": "DEUS É SOBERANO",
     "sections": [
       {
-        "text": "Nosso Deus é soberano\nEle reina antes da fundação do mundo (2X)",
+        "text": "Nosso Deus é soberano\nEle reina antes da fundação do mundo [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4116,19 +3212,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Foi Ele quem criou os luminares,",
+        "text": "Foi Ele quem criou os luminares, \nCriou a natureza, formou o homem",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Criou a natureza, formou o homem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Glória a Deus por Suas maravilhas,\npela Sua grandeza, glória a Deus! (2X)",
+        "text": "Glória a Deus por Suas maravilhas,\npela Sua grandeza, glória a Deus! [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4204,86 +3294,50 @@ const LOUVORES_DATA = [
     "title": "DIA FESTIVO 411 CC",
     "sections": [
       {
-        "text": "Que alegria neste dia \nNós estamos a gozar",
+        "text": "Que alegria neste dia \nNós estamos a gozar\nNeste ensejo bom desejo temos: \nSó a Deus louvar!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Neste ensejo bom desejo temos: \nSó a Deus louvar!",
+        "text": "Oh! Cantemos, pois, com alegria\nNeste grande e mui festivo dia\nVê! Vê o que nos fez o Rei dos reis!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Oh! Cantemos, pois, com alegria",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Neste grande e mui festivo dia",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Vê! Vê o que nos fez o Rei dos reis!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Que alegria neste dia\nEnche-nos o coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Inimigos e perigos\nJá venceu o Capitão!",
+        "text": "Que alegria neste dia\nEnche-nos o coração\nInimigos e perigos\nJá venceu o Capitão!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Que alegria neste dia\nTem os crentes em Jesus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Reunidos os remidos \nFazem tudo em Sua luz",
+        "text": "Que alegria neste dia\nTem os crentes em Jesus\nReunidos os remidos \nFazem tudo em Sua luz",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Deus glorioso, Deus bondoso,\nAbençoa-nos aqui",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Que esta igreja sempre seja\nConsagrada só a Ti",
+        "text": "Deus glorioso, Deus bondoso,\nAbençoa-nos aqui\nQue esta igreja sempre seja\nConsagrada só a Ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -4334,19 +3388,19 @@ const LOUVORES_DATA = [
     "title": "DIGNO DE GLÓRIA",
     "sections": [
       {
-        "text": "Digno de glória e louvores\nlevantamos nossas mãos,\nTe adoramos, ó Senhor... (2 X)",
+        "text": "Digno de glória e louvores\nlevantamos nossas mãos,\nTe adoramos, ó Senhor... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Porque grande és Tu\nmaravilhas fazes Tu\nNão há outro igual a Ti,\nnão, não há\nNão há Deus além de Ti (2 X)",
+        "text": "Porque grande és Tu\nmaravilhas fazes Tu\nNão há outro igual a Ti,\nnão, não há\nNão há Deus além de Ti [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -4363,25 +3417,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Pelos cravos em Tuas mãos,\nGraças eu Te dou, ó meu Senhor\nLavou minha  mente e coração,\nMe deu perdão, restaurou-me a comunhão",
+        "text": "Pelos cravos em Tuas mãos,\nGraças eu Te dou, ó meu Senhor\nLavou minha mente e coração,\nMe deu perdão, restaurou-me a comunhão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Digno é o Senhor, sobre o trono está.\nSoberano, Criador, vou sempre Te adorar",
+        "text": "Digno é o Senhor, sobre o trono está.\nSoberano, Criador, vou sempre Te adorar\nElevo a minha voz ao Cristo que venceu!\nCordeiro de Deus morreu por mim, \nMas ressuscitou, digno é o Senhor!",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Elevo a minha voz ao Cristo que venceu!\nCordeiro de Deus morreu por mim, \nMas ressuscitou, digno é o Senhor!",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -4422,13 +3470,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Jesus, que doce nome!\nQue transforma em alegria\nO meu triste coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Jesus, só o Teu nome\nÉ capaz de dar \nAo homem salvação!",
+        "text": "Jesus, que doce nome!\nQue transforma em alegria\nO meu triste coração\nJesus, só o Teu nome\nÉ capaz de dar \nAo homem salvação!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4441,7 +3483,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -4493,7 +3535,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -4510,22 +3552,16 @@ const LOUVORES_DATA = [
     "title": "DÁDIVA",
     "sections": [
       {
-        "text": "Venho, Senhor, minha vida oferecer\nComo oferta de amor e sacrifício",
+        "text": "Venho, Senhor, minha vida oferecer\nComo oferta de amor e sacrifício\nQuero minha vida a Ti entregar\nComo oferta viva em Teu altar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Quero minha vida a Ti entregar\nComo oferta viva em Teu altar",
+        "text": "Venho, Senhor, minha vida oferecer\nComo oferta de amor e sacrifício\nQuero minha vida a Ti entregar\nComo oferta viva em Teu altar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
-      },
-      {
-        "text": "[Repete]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
       },
       {
         "text": "Pois pra Te adorar foi que eu nasci",
@@ -4546,19 +3582,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Repete tudo]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
       },
       {
-        "text": "Estar ao Teu lado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Estar ao Teu lado, Senhor",
+        "text": "Estar ao Teu lado \nEstar ao Teu lado, Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4566,7 +3596,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Eis o Cordeiro",
+    "title": "EIS O CORDEIRO",
     "sections": [
       {
         "text": "Eis o Cordeiro que por nós sofreu\nE morreu, nos relembramos\nSeu sacrifício faz-nos achegar\nHá perdão, aos pés da cruz!",
@@ -4594,7 +3624,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -4606,7 +3636,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -4622,32 +3652,32 @@ const LOUVORES_DATA = [
     "title": "EIS-ME AQUI",
     "sections": [
       {
-        "text": "Quanta coisa tenho feito para o meu próprio prazer \nTenho andado à procura do meu próprio bem viver",
+        "text": "Quanta coisa tenho feito \npara o meu próprio prazer \nTenho andado à procura \ndo meu próprio bem viver",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Enquanto existe tanta gente ansiosa por aí \nNão Te conhecendo assim como eu conheço a Ti",
+        "text": "Enquanto existe tanta gente \nansiosa por aí \nNão Te conhecendo \nassim como eu conheço a Ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "O chamado que um dia Tu fizeste a mim \nE ao qual sem hesitar eu disse sim",
+        "text": "O chamado que um dia \nTu fizeste a mim \nE ao qual sem hesitar \neu disse sim",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Ressoou em meus ouvidos como na primeira vez \nE a Ti, Jesus, eu novamente digo sim",
+        "text": "Ressoou em meus ouvidos \ncomo na primeira vez \nE a Ti, Jesus, \neu novamente digo sim",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Eis-me aqui, eu livre estou ao Teu dispor \nPara onde Tu quiseres me enviar\nMe coloco submisso a Ti, Senhor \nPara o Teu querer em mim realizar",
-        "isRefrao": false,
+        "text": "Eis-me aqui, \neu livre estou ao Teu dispor \nPara onde Tu quiseres me enviar\nMe coloco submisso \na Ti, Senhor \nPara o Teu querer \nem mim realizar",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -4658,13 +3688,13 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
-        "text": "Para o Teu querer em mim realizar... (2x)",
+        "text": "Para o Teu querer \nem mim realizar... \nPara o Teu querer \nem mim realizar...",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4716,20 +3746,20 @@ const LOUVORES_DATA = [
     "title": "EM ESPÍRITO, EM VERDADE",
     "sections": [
       {
-        "text": "Em espírito, em verdade, Te adoramos, Te adoramos [2X]",
+        "text": "Em espírito, em verdade, \nTe adoramos, Te adoramos [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Rei dos reis e Senhor Te entregamos nosso viver [2X]",
+        "text": "Rei dos reis e Senhor \nTe entregamos nosso viver [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "Pra Te adorar ó Rei dos reis, \nfoi que eu nasci ó Rei Jesus\nMeu prazer é Te louvar\nMeu prazer é estar nos átrios do Senhor\nMeu prazer é viver na casa de Deus onde flui o amor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -4741,7 +3771,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -4769,7 +3799,7 @@ const LOUVORES_DATA = [
     "title": "EM FERVENTE ORAÇÃO",
     "sections": [
       {
-        "text": "Em fervente oração, vem o teu coração Na presença de Deus derramar",
+        "text": "Em fervente oração, vem o teu coração \nNa presença de Deus derramar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4787,7 +3817,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Só, então, hás de ver que o Senhor tem poder. Quando tudo deixares no altar",
+        "text": "Só, então, hás de ver \nque o Senhor tem poder. \nQuando tudo deixares no altar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4811,7 +3841,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Só, então, hás de ver que o Senhor tem poder. Quando tudo deixares no altar",
+        "text": "Só, então, hás de ver \nque o Senhor tem poder. \nQuando tudo deixares no altar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4835,7 +3865,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Só, então, hás de ver que o Senhor tem poder. Quando tudo deixares no altar",
+        "text": "Só, então, hás de ver \nque o Senhor tem poder. \nQuando tudo deixares no altar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -4846,170 +3876,62 @@ const LOUVORES_DATA = [
     "title": "ESCOLHIDO PELA GRAÇA",
     "sections": [
       {
-        "text": "Pode um morto se levantar?",
+        "text": "Pode um morto se levantar?\nPode um escravo se libertar?\nPode um cego se dar visão?\nOu se escolhe a salvação?",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pode um escravo se libertar?",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pode um cego se dar visão?",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ou se escolhe a salvação?",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Escolhido fui, escolhido sou",
+        "text": "Escolhido fui, escolhido sou\nDesde o princípio por Deus criador\nEscolhido fui, escolhido sou\nPela graça, pelo amor",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Desde o princípio por Deus criador",
+        "text": "Não existia razão em mim\nPara o Deus santo escolher-me\nSem exigência elegeu a mim\nPois nunca iria querer-lhe!",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Escolhido fui, escolhido sou",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pela graça, pelo amor",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Não existia razão em mim",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Para o Deus santo escolher-me",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sem exigência elegeu a mim",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois nunca iria querer-lhe!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
-        "isRefrao": false,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Na morte de Cristo, o Salvador",
+        "text": "Na morte de Cristo, o Salvador\nA morte nos foi derrotada\nNem uma gota de sangue eficaz\nEm vão foi na cruz derramada!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "A morte nos foi derrotada",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nem uma gota de sangue eficaz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Em vão foi na cruz derramada!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Irresistível é a graça de Deus",
+        "text": "Irresistível é a graça de Deus\nAo que está morto em pecado\nÉ soberano o chamado do Pai\nAo homem atraído e amado!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Ao que está morto em pecado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "É soberano o chamado do Pai",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ao homem atraído e amado!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Em santidade por Cristo viver",
+        "text": "Em santidade por Cristo viver\nVencendo o mundo e o pecado\nNada, ninguém, nem a morte ou mal\nAfastam de Deus seus amados",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Vencendo o mundo e o pecado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nada, ninguém, nem a morte ou mal",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Afastam de Deus seus amados",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -5069,7 +3991,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Espírito, enche a minha vida",
+    "title": "ESPÍRITO, ENCHE A MINHA VIDA",
     "sections": [
       {
         "text": "Espírito, enche a minha vida!\nEnche-me do Teu poder,\npois de Ti eu quero ter.\nEspírito, enche o meu ser...",
@@ -5102,13 +4024,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Meu coração\neu quero derramar\ndiante do Teu altar!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Diante do Teu altar!",
+        "text": "Meu coração\neu quero derramar\ndiante do Teu altar!\nDiante do Teu altar!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5119,135 +4035,51 @@ const LOUVORES_DATA = [
     "title": "ESSÊNCIA DE DEUS",
     "sections": [
       {
-        "text": "O mundo há de passar e toda profecia",
+        "text": "O mundo há de passar e toda profecia\nOs dons, as línguas e tudo mais que existir",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Os dons, as línguas e tudo mais que existir",
+        "text": "Porém, como Aquele que foi, \nHoje é e pra sempre há de ser,\nO amor é a essência de Deus\nE pra sempre também vai viver",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Porém, como Aquele que foi,",
+        "text": "Bondoso e sem rancor, fiel e paciente\nHumilde e sofredor, espera tão somente\nJusto e verdadeiro, tudo suporta e tudo crê",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Hoje é e pra sempre há de ser,",
+        "text": "Tão puro e perfeito é o amor\nNão busca interesse ou favor\nMistério, expressão, vida e luz do Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "O amor é a essência de Deus\nE pra sempre também vai viver",
+        "text": "Se eu pudesse saber \ndestinos ou futuros\nFazer mover as montanhas \ncom minha fé",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Bondoso e sem rancor, fiel e paciente",
+        "text": "Se eu pudesse falar \nqualquer língua \nem qualquer lugar\nE desse os meus bens \nao mais pobre \nOu morresse \nem favor de alguém",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Humilde e sofredor, espera tão somente",
-        "isRefrao": false,
+        "text": "Se não tivesse amor, \nde nada valeria\nSe não tivesse amor, \nproveito algum teria\nFria e sem razão, \na vida então passaria\nVazio seria o falar, \nUm sino que insiste em tocar\nSe dentro de mim \nnão valesse o amor",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Justo e verdadeiro, tudo suporta e tudo crê",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tão puro e perfeito é o amor\nNão busca interesse ou favor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Mistério, expressão, vida e luz do Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se eu pudesse saber destinos ou futuros",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Fazer mover as montanhas com minha fé",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se eu pudesse falar qualquer língua",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Em qualquer lugar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E desse os meus bens ao mais pobre",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ou morresse em favor de alguém",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se não tivesse amor, de nada valeria",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se não tivesse amor, proveito algum teria",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Fria e sem razão, a vida então passaria",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Vazio seria o falar,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Um sino que insiste em tocar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se dentro de mim não valesse o amor (2X)",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       }
     ]
@@ -5268,15 +4100,15 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Não olho as circunstâncias,\nOlho Seu amor",
+        "text": "Não olho as circunstâncias,\nOlho Seu amor\nNão me guio por vista,\nAlegre estou",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Não me guio por vista,\nAlegre estou [2X]",
+        "text": "[REFRÃO]",
         "isRefrao": true,
-        "isRef": false,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -5292,7 +4124,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -5303,73 +4141,67 @@ const LOUVORES_DATA = [
     "title": "ESTAMOS AQUI",
     "sections": [
       {
-        "text": "Estamos aqui pra Te adorar,\nEm Tua presença pra Te exaltar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nossos olhos contemplam\nTua face de amor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tudo o que temos, tudo o que somos\nÉ Teu, Senhor [2X]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nossas vidas estão guardadas em Tuas mãos;",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Estão escondidas, no Teu coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois somos raça eleita, sacerdócio real,\nPovo santo de Deus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A fim de proclamar Teu reino, oh Senhor",
+        "text": "Estamos aqui pra Te adorar,\nEm Tua presença pra Te exaltar\nNossos olhos contemplam\nTua face de amor\nTudo o que temos, tudo o que somos\nÉ Teu, Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Nossas vidas estão guardadas em Tuas mãos;",
+        "text": "Nossas vidas estão \nguardadas em Tuas mãos; \nEstão escondidas, \nno Teu coração",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Estão escondidas, no Teu coração",
+        "text": "Pois somos raça eleita, \nsacerdócio real,\nPovo santo de Deus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pois somos raça eleita, sacerdócio real,\nPovo santo de Deus",
+        "text": "A fim de proclamar \nTeu reino, oh Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "A fim de proclamar Teu reino, oh Senhor [3X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "Nossas vidas estão \nguardadas em Tuas mãos; \nEstão escondidas, \nno Teu coração",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Pois somos raça eleita, \nsacerdócio real,\nPovo santo de Deus",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "A fim de proclamar \nTeu reino, oh Senhor",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "A fim de proclamar \nTeu reino, oh Senhor",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "A fim de proclamar \nTeu reino, oh Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5404,7 +4236,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Te louvamos, ó Senhor!\nPelo Teu imenso amor\nManifesta o Teu perdão e poder\nE assim vamos Te adorar para sempre!\nPra sempre, ó meu Deus!   (2x)",
+        "text": "Te louvamos, ó Senhor!\nPelo Teu imenso amor\nManifesta o Teu perdão e poder\nE assim vamos Te adorar para sempre!\nPra sempre, ó meu Deus!   [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5427,25 +4259,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Eu me arrependo, sem trazer desculpas",
+        "text": "Eu me arrependo, \nsem trazer desculpas\nMe arrependo, \nsem a ninguém culpar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Me arrependo, sem a ninguém culpar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E eu retorno, prostrado aos pés de Cristo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu quero Te amar mais... E me arrependo!",
+        "text": "E eu retorno,\nprostrado aos pés de Cristo\nEu quero Te amar mais... \nE me arrependo!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5457,37 +4277,25 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Eu preciso ser vivificado,\nDo orgulho despojado, retomar a minha cruz",
+        "text": "Eu preciso ser vivificado,\nDo orgulho despojado, \nretomar a minha cruz",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Eu me arrependo, sem trazer desculpas",
+        "text": "Eu me arrependo, \nsem trazer desculpas\nMe arrependo, \nsem a ninguém culpar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Me arrependo, sem a ninguém culpar",
+        "text": "E eu retorno, \nprostrado aos pés de Cristo\nEu quero Te amar mais\nE eu retorno, \nprostrado aos pés de Cristo\nEu quero Te amar mais",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E eu retorno, prostrado aos pés de Cristo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu quero Te amar mais [2x]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E me arrependo! [2x]",
+        "text": "E me arrependo!\nE me arrependo!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5510,7 +4318,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Eu Te exaltarei,\ncada dia sempre Te bendirei!\nEu Te exaltarei,\npara sempre Te louvarei... [ 2 X]",
+        "text": "Eu Te exaltarei,\ncada dia sempre Te bendirei!\nEu Te exaltarei,\npara sempre Te louvarei... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5586,19 +4394,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Deus, Tu És meu Deus\nE certo estou de me encontrar",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nos braços Teus\nDá-me Tua paz\nE meu espírito descansará",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Somente em Ti",
+        "text": "Deus, Tu És meu Deus\nE certo estou de me encontrar \nNos braços Teus\nDá-me Tua paz\nE meu espírito descansará \nSomente em Ti",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -5689,7 +4485,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Fujamos da tentação (461 CC)",
+    "title": "FUJAMOS DA TENTAÇÃO (461 CC)",
     "sections": [
       {
         "text": "Sempre combatamos toda tentação,\nPois infelicita nosso coração;\nSempre dominemos toda vil paixão,\nA Jesus seguindo sempre em união.",
@@ -5730,7 +4526,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Glória pra sempre",
+    "title": "GLÓRIA PRA SEMPRE",
     "sections": [
       {
         "text": "Glória pra sempre ao Cordeiro de Deus \nA Jesus, o Senhor, ao Leão de Judá, \nA raiz de Davi, que venceu e o livro abrirá",
@@ -5745,14 +4541,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Ele é o Senhor! Ele é o Senhor! \nRessurreto dentre os mortos Ele é o Senhor!",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Todo joelho se dobrará, toda língua confessará \nQue Jesus Cristo é o Senhor",
-        "isRefrao": true,
+        "text": "Ele é o Senhor! Ele é o Senhor! \nRessurreto dentre os mortos Ele é o Senhor! \nTodo joelho se dobrará, toda língua confessará \nQue Jesus Cristo é o Senhor",
+        "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
@@ -5786,22 +4576,28 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Por toda eternidade\nTu serás adorado com louvor",
+        "text": "Por toda eternidade\nTu serás adorado com louvor\nTeu nome é exaltado\nSempre magnificado com louvor\nGrande Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Teu nome é exaltado\nSempre magnificado com louvor\nGrande Senhor!",
+        "text": "Nas alturas dos céus, \nNo profundo do mar,\nNos limites da Terra, louvamos-Te",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE ATÉ O “MAGNIFICADO COM LOUVOR”]",
+        "text": "Com todo o coração,\nTodo povo e nação,\nTodos, num só clamor, louvamos o Senhor",
         "isRefrao": false,
         "isRef": false,
-        "isInstruction": true
+        "isInstruction": false
+      },
+      {
+        "text": "Por toda eternidade\nTu serás adorado com louvor\nTeu nome é exaltado\nSempre magnificado com louvor",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
@@ -5810,7 +4606,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Por toda eternidade (Grande Senhor)",
+        "text": "Por toda eternidade \n(Grande Senhor)",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5839,7 +4635,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -5874,25 +4670,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Grande é o Senhor, em majestade\nSobre toda a terra reina em altivez",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Grande é o Senhor em santidade\nCéus e terra cumprem Suas leis",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Criou o mundo e o fez viver,\nO dia faz nascer\nMostrando a imensidão do Seu poder",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Grande é o Senhor, em majestade. \nGrande é o Senhor!",
+        "text": "Grande é o Senhor, em majestade\nSobre toda a terra reina em altivez\nGrande é o Senhor em santidade\nCéus e terra cumprem Suas leis\nCriou o mundo e o fez viver,\nO dia faz nascer\nMostrando a imensidão do Seu poder\nGrande é o Senhor, em majestade. \nGrande é o Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -5933,9 +4711,15 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Então minha alma canta a Ti, Senhor:\nGrandioso és Tu! Grandioso és Tu [2X]",
+        "text": "Então minha alma canta a Ti, Senhor:\nGrandioso és Tu! Grandioso és Tu",
         "isRefrao": true,
         "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -5945,13 +4729,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Olhando os montes, vales e campinas, \nEm tudo vejo  o Teu poder sem par.",
+        "text": "Olhando os montes, vales e campinas, \nEm tudo vejo o Teu poder sem par.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -5969,7 +4759,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -5987,7 +4783,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -5995,7 +4797,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Graça e Redenção",
+    "title": "GRAÇA E REDENÇÃO",
     "sections": [
       {
         "text": "É o dia santo resplandece a luz\nCorações se erguem Todos a Jesus\nNa manhã tão clara Ouve-se o louvor\nÉ Domingo santo, Dia do Senhor",
@@ -6011,7 +4813,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Dia do Senhor Santo e Fiel\nSuba nosso canto como incenso ao céu\nDia do Senhor, Graça e redenção\nToda língua exalte o Deus da criação",
-        "isRefrao": true,
+        "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
@@ -6028,8 +4830,14 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -6057,7 +4865,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Procurarei com mais fervor \na comunhão com o Senhor. (2x)",
+        "text": "Procurarei com mais fervor \na comunhão com o Senhor. [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6081,7 +4889,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Então darei melhor louvor \na meu Jesus, a meu Senhor. (2x)",
+        "text": "Então darei melhor louvor \na meu Jesus, a meu Senhor. [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6105,7 +4913,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Depois da morte, do pavor, \nentão será, sim só louvor. (2x)",
+        "text": "Depois da morte, do pavor, \nentão será, sim só louvor. [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6141,7 +4949,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Para isso, \nO Filho de Deus se manifestou:\nPara desfazer As obras do diabo\nSeparando para Si um povo Santo, \nSem mácula, nem ruga, Sua Igreja gloriosa",
-        "isRefrao": true,
+        "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
@@ -6193,7 +5001,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Minh'alma está apegada a Ti\nSenhor, incomparável És [2X]",
+        "text": "Minh'alma está apegada a Ti\nSenhor, incomparável És [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6201,7 +5009,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "INFINITAMNETE MAIS",
+    "title": "INFINITAMENTE MAIS",
     "sections": [
       {
         "text": "Sim, eu sei Senhor, que Tu és soberano\nTens os Teus caminhos, \nTens Teus próprios planos",
@@ -6234,25 +5042,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Pois sei em quem tenho crido",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Também sei que És poderoso",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pra fazer infinitamente mais",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pra fazer infinitamente mais!",
+        "text": "Pois sei em quem tenho crido \nTambém sei que És poderoso \nPra fazer infinitamente mais\nPra fazer infinitamente mais!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6264,25 +5054,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Do que tudo que pedimos,\nInfinitamente mais!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Do que tudo que sentimos,\nInfinitamente mais!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Do que tudo que pensamos,\nInfinitamente mais!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Do que tudo que nós cremos,\nInfinitamente mais!",
+        "text": "Do que tudo que pedimos,\nInfinitamente mais!\nDo que tudo que sentimos,\nInfinitamente mais!\nDo que tudo que pensamos,\nInfinitamente mais!\nDo que tudo que nós cremos,\nInfinitamente mais!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6294,31 +5066,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Pois sei em quem tenho crido",
+        "text": "Pois sei em quem tenho crido \nTambém sei que És poderoso \nPra fazer infinitamente mais",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Também sei que És poderoso",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pra fazer infinitamente mais",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nas nossas vidas, infinitamente mais...",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Na Tua igreja, infinitamente mais!",
+        "text": "Nas nossas vidas, infinitamente mais...\nNa Tua igreja, infinitamente mais!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6330,7 +5084,7 @@ const LOUVORES_DATA = [
     "sections": [
       {
         "text": "Jesus Cristo mudou meu viver,\nJesus Cristo mudou meu viver,\nEle é a luz que ilumina o meu ser\nSim, Jesus Cristo mudou meu viver",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -6359,10 +5113,10 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       }
     ]
   },
@@ -6370,19 +5124,13 @@ const LOUVORES_DATA = [
     "title": "JESUS EM TUA PRESENÇA",
     "sections": [
       {
-        "text": "Jesus, em Tua presença, reunimo-nos aqui.\nContemplamos Tua face e rendemo-nos a Ti",
+        "text": "Jesus, em Tua presença, \nreunimo-nos aqui.\nContemplamos Tua face \ne rendemo-nos a Ti",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pois um dia a Tua morte \ntrouxe vida a todos nós",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E nos deu completo acesso ao coração do Pai.",
+        "text": "Pois um dia a Tua morte \ntrouxe vida a todos nós\nE nos deu completo acesso \nao coração do Pai.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6394,49 +5142,25 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "O véu que separava,\njá não separa mais;",
+        "text": "O véu que separava,\njá não separa mais;\nA luz, que outrora apagada,\nagora brilha e cada dia brilha mais!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "A luz, que outrora apagada,\nagora brilha e cada dia brilha mais!",
+        "text": "Só pra Te adorar\ne fazer Teu nome grande\nE Te dar o louvor que \né devido, estamos nós aqui!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Só pra Te adorar\ne fazer Teu nome grande",
+        "text": "O véu que separava,\njá não separa mais;\nA luz, que outrora apagada,\nagora brilha e cada dia brilha mais!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E Te dar o louvor que \né devido, estamos nós aqui!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O véu que separava,\njá não separa mais;",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A luz, que outrora apagada,\nagora brilha e cada dia brilha mais!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Só pra Te adorar\ne fazer Teu nome grande",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E Te dar o louvor que \né devido, estamos nós aqui!",
+        "text": "Só pra Te adorar\ne fazer Teu nome grande\nE Te dar o louvor que \né devido, estamos nós aqui!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6465,13 +5189,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Cristo me amou e me livrou\nO Seu imenso amor me transformou.",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Foi Seu poder, o Seu querer\nSim, Cristo, o Salvador me transformou",
+        "text": "Cristo me amou e me livrou\nO Seu imenso amor me transformou.\nFoi Seu poder, o Seu querer\nSim, Cristo, o Salvador me transformou",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -6519,19 +5237,19 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Pelo vale tão sombrio e também terrível mar\nQueira Tua mão divina sempre, sempre me guiar",
+        "text": "Pelo vale tão sombrio \ne também terrível mar\nQueira Tua mão divina sempre, \nsempre me guiar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -6543,89 +5261,65 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "Livre acesso",
+    "title": "LIVRE ACESSO",
     "sections": [
       {
-        "text": "Senhor, eu não sou nada \ndiante do Teu poder\nNem merecedor do Teu imenso amor",
+        "text": "Senhor, eu não sou nada \ndiante do Teu poder\nNem merecedor do Teu imenso amor\nAtravés do Teu Filho tenho \nlivre acesso a Ti\nQue me fez chegar aos Teus pés\nMe humilhar diante de Ti",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Através do Teu Filho tenho \nlivre acesso a Ti\nQue me fez chegar aos Teus pés\nMe humilhar diante de Ti",
+        "text": "[REFRÃO]",
         "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "Deixa o Teu rio \npassar em minha vida\ne curar minhas feridas, \nsarar as minhas dores",
+        "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
+        "text": "Livra-me ó Deus, das cadeias \nque me prendem \nToca em minh’alma \nfaz em mim o Teu querer, \nSenhor",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
-        "isRef": false,
-        "isInstruction": true
+        "isRef": true,
+        "isInstruction": false
       },
       {
-        "text": "Deixa o Teu rio passar em minha vida\ne curar minhas feridas, \nsarar as minhas dores",
+        "text": "Deixa o Teu rio \npassar em minha vida\ne curar minhas feridas, \nsarar as minhas dores",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Livra-me ó Deus, das cadeias \nque me prendem",
+        "text": "Livra-me ó Deus, das cadeias \nque me prendem \nToca em minh’alma \nfaz em mim o Teu querer, \nSenhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Toca em minh’alma faz em mim \no Teu querer, Senhor",
+        "text": "Deixa o Teu rio \npassar em minha vida\ne curar minhas feridas, \nsarar as minhas dores",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": true
-      },
-      {
-        "text": "Deixa o Teu rio passar em minha vida\ne curar minhas feridas, \nsarar as minhas dores",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Livra-me ó Deus, das cadeias \nque me prendem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Toca em minh’alma faz em mim \no Teu querer, Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Deixa o Teu rio passar em minha vida\ne curar minhas feridas, \nsarar as minhas dores",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Livra-me ó Deus, das cadeias \nque me prendem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Toca em minh’alma faz em mim \no Teu querer, Senhor",
+        "text": "Livra-me ó Deus, das cadeias \nque me prendem \nToca em minh’alma \nfaz em mim o Teu querer, \nSenhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6636,25 +5330,13 @@ const LOUVORES_DATA = [
     "title": "LOGO DE MANHÃ",
     "sections": [
       {
-        "text": "Logo de manhã quero Te buscar\nTua voz ouvir, Teu amor sentir",
+        "text": "Logo de manhã quero Te buscar\nTua voz ouvir, Teu amor sentir\nEstender as mãos para Te louvar\nDerramar meu coração sobre Teu altar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Estender as mãos para Te louvar\nDerramar meu coração sobre Teu altar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois Tu sabes bem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tudo quanto há em mim.\nVou Te seguir e Te amar até o fim",
+        "text": "Pois Tu sabes bem \nTudo quanto há em mim.\nVou Te seguir e Te amar até o fim",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6666,13 +5348,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Mesmo escura  a noite, brilha a Tua luz\nEm Teus braços eu descanso,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Meu Senhor Jesus",
+        "text": "Mesmo escura  a noite, brilha a Tua luz\nEm Teus braços eu descanso,\nMeu Senhor Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6684,13 +5360,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Mesmo escura  a noite, brilha a Tua luz\nEm Teus braços eu descanso,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Meu Senhor Jesus",
+        "text": "Mesmo escura  a noite, brilha a Tua luz\nEm Teus braços eu descanso,\nMeu Senhor Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6701,13 +5371,7 @@ const LOUVORES_DATA = [
     "title": "Louvado seja",
     "sections": [
       {
-        "text": "Louvado seja, Senhor, Teu nome \nEntronizado entre as nações",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Exaltarei a Ti, Senhor, \nPelo que Tu és eu Te adorarei",
+        "text": "Louvado seja, Senhor, Teu nome \nEntronizado entre as nações \nExaltarei a Ti, Senhor, \nPelo que Tu és eu Te adorarei",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -6748,37 +5412,43 @@ const LOUVORES_DATA = [
     "title": "LOUVEMOS AO SENHOR",
     "sections": [
       {
-        "text": "Louvemos ao Senhor,\nLouvemos ao Senhor,\nAdoremos no Seu santo monte\nNosso amado Pai, Seu nome é santo... (2 X)",
+        "text": "Louvemos ao Senhor,\nLouvemos ao Senhor,\nAdoremos no Seu santo monte\nNosso amado Pai, Seu nome é santo... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Louvemos ao Senhor\nPois Seu nome é santo\nPois Seu nome é santo... (2 X)",
+        "text": "Louvemos ao Senhor\nPois Seu nome é santo\nPois Seu nome é santo...",
+        "isRefrao": true,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "Magnifiquemos ao Senhor\nAo Rei que é digno de louvor\nExcelso, Supremo\ne Digno de louvor... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Magnifiquemos ao Senhor\nAo Rei que é digno de louvor",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Excelso, Supremo\ne Digno de louvor... (2 X)",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Louvemos ao Senhor\nPois Seu nome é santo\nPois Seu nome é santo! (2 X)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Hosana, Hosana,\nHosana ao nosso Rei (2 X)",
+        "text": "Hosana, Hosana,\nHosana ao nosso Rei [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6796,7 +5466,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Hosana, Hosana,\nHosana ao nosso Rei... (2 X)",
+        "text": "Hosana, Hosana,\nHosana ao nosso Rei... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6857,7 +5527,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Mais que vencedor",
+    "title": "MAIS QUE VENCEDOR",
     "sections": [
       {
         "text": "Jesus em Tua fidelidade eu me abrigo\nE debaixo de Tuas asas fico tranquilo",
@@ -6908,19 +5578,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Muito mais que vencedor, \nMuito mais que uma vitória: \nA minha porção em Ti é ser filho (2X)",
+        "text": "Muito mais que vencedor, \nMuito mais que uma vitória: \nA minha porção em Ti é ser filho [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Aba Pai, aleluia, \nNa Tua mesa há grande provisão!\nAba Pai, aleluia, sou mais,\nMuito mais que vencedor! (2X)",
+        "text": "Aba Pai, aleluia, \nNa Tua mesa há grande provisão!\nAba Pai, aleluia, sou mais,\nMuito mais que vencedor! [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Sou mais,\nMuito mais que vencedor. (2X)",
+        "text": "Sou mais, \nMuito mais que vencedor. [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -6928,7 +5598,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Maravilhas Divinas 07 CC",
+    "title": "MARAVILHAS DIVINAS (07 CC)",
     "sections": [
       {
         "text": "Ao Deus de amor e de imensa bondade, \ncom voz de júbilo vinde e aclamai!\nCom coração transbordante de graças, \nseu grande amor, todos vinde e louvai",
@@ -7028,7 +5698,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Maravilhosa Graça (A REIS)",
+    "title": "MARAVILHOSA GRAÇA (A REIS)",
     "sections": [
       {
         "text": "Maravilhosa graça que perdido me encontrou\nEstando cego pude ver, Cristo me resgatou\nQuando Tua graça me tocou, do medo me livrou\nQuão preciosa é pra mim, a graça do Senhor",
@@ -7038,7 +5708,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Liberto eu fui de uma prisão\nMeu Salvador me resgatou\nMisericórdia e perdão\nEterno amor e redenção",
-        "isRefrao": true,
+        "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
@@ -7055,13 +5725,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Se o meu mundo se acabar e o sol não mais brilhar\nO Deus que um dia me chamou\nSerá pra sempre meu [3X]",
+        "text": "Se o meu mundo se acabar e o sol não mais brilhar\nO Deus que um dia me chamou\nSerá pra sempre meu [3 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -7075,7 +5751,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Maravilhoso",
+    "title": "MARAVILHOSO",
     "sections": [
       {
         "text": "Quão formoso És, Rei do universo\nTua glória enche a terra e enche os céus",
@@ -7096,14 +5772,14 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA 1X]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -7116,130 +5792,40 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Marcharemos",
+    "title": "MARCHAREMOS",
     "sections": [
       {
-        "text": "Nós queremos ouvir tua voz",
+        "text": "Nós queremos ouvir tua voz\nTeu louvor sempre esteja entre nós\nQueremos ser, Senhor, mais sábios\nNa verdade e no amor\nMarcharemos na coragem do Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Teu louvor sempre esteja entre nós",
+        "text": "Marcharemos cheios de coragem\nSeguiremos seja onde for\nEmbora a dor nos cerque na viagem\nMarcharemos na coragem do Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Queremos ser, Senhor, mais sábios",
+        "text": "E quando a escuridão da noite descer\nQueremos só pela graça e fé viver\nCom esperança e com coragem\nNa alegria ou na dor\nMarcharemos na coragem do Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Na verdade e no amor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Marcharemos na coragem do Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Marcharemos cheios de coragem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Seguiremos seja onde for",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Embora a dor nos cerque na viagem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Marcharemos na coragem do Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E quando a escuridão da noite descer",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Queremos só pela graça e fé viver",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Com esperança e com coragem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Na alegria ou na dor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Marcharemos na coragem do Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
+        "text": "[REFRÃO]",
         "isRefrao": false,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "E quando a escuridão da noite descer",
+        "text": "E quando a escuridão da noite descer\nQueremos só pela graça e fé viver\nCom esperança e com coragem\nNa alegria ou na dor\nMarcharemos na coragem do Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Queremos só pela graça e fé viver",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Com esperança e com coragem",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Na alegria ou na dor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Marcharemos na coragem do Senhor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[Refrão]",
+        "text": "[REFRÃO]",
         "isRefrao": false,
         "isRef": true,
         "isInstruction": false
@@ -7358,7 +5944,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -7370,7 +5956,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -7474,55 +6060,19 @@ const LOUVORES_DATA = [
     "title": "MINHA’ALMA CANTA AO SENHOR",
     "sections": [
       {
-        "text": "Minh’alma canta ao Senhor, ao Senhor",
+        "text": "Minh’alma canta ao Senhor, ao Senhor\nSeu nome adorarei\nBendiga todo o meu ser ao Senhor\nSeu nome adorarei",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Seu nome adorarei",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Bendiga todo o meu ser ao Senhor",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Seu nome adorarei",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O sol nasceu surge um novo dia",
+        "text": "O sol nasceu surge um novo dia\nEu canto a Ti uma nova canção",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Eu canto a Ti uma nova canção",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E seja o que for",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ou o que está diante de mim",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu cantarei até o anoitecer",
+        "text": "E seja o que for \nOu o que está diante de mim\nEu cantarei até o anoitecer",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7534,25 +6084,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Tu És amor sempre paciente",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tu És fiel grande é o Teu coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tua bondade me leva a cantar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dez mil razões para Te adorar",
+        "text": "Tu És amor sempre paciente\nTu És fiel grande é o Teu coração\nTua bondade me leva a cantar\nDez mil razões para Te adorar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7564,37 +6096,25 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "E quando enfim se findar o dia",
+        "text": "E quando enfim se findar o dia\nE o meu tempo aqui se acabar \nAinda assim minh’alma seguirá cantando\nPor toda eternidade eu vou cantar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E o meu tempo aqui se acabar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ainda assim minh’alma seguirá cantando",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Por toda eternidade eu vou cantar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Seu nome adorarei! [2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "Seu nome adorarei! [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7605,21 +6125,15 @@ const LOUVORES_DATA = [
     "title": "MÃO NO ARADO",
     "sections": [
       {
-        "text": "Quem tem posto a mão no arado\nNão pode mais olhar pra trás",
+        "text": "Quem tem posto a mão no arado\nNão pode mais olhar pra trás\nPois quem no arado põe a mão\nTrabalho certo e perto, \nTem serviço e profissão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pois quem no arado põe a mão\nTrabalho certo e perto,",
+        "text": "[REFRÃO]",
         "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tem serviço e profissão (2x)",
-        "isRefrao": false,
-        "isRef": false,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -7629,19 +6143,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Quem em Cristo põe a vida\nNão pode mais olhar pra trás",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois quem ao mestre deu a mão\nTrabalho certo e perto,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tem serviço e profissão",
+        "text": "Quem em Cristo põe a vida\nNão pode mais olhar pra trás\nPois quem ao mestre deu a mão\nTrabalho certo e perto, \nTem serviço e profissão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7653,43 +6155,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 1x]",
+        "text": "[REFRÃO]",
         "isRefrao": false,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Quem tem posto a mão no arado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "(Não pode olhar pra trás)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem em Cristo põe a vida",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "(Não pode olhar pra trás)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem tem posto a mão no arado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "(Não pode olhar pra trás)",
+        "text": "Quem tem posto a mão no arado\n(Não pode olhar pra trás)\nQuem em Cristo põe a vida\n(Não pode olhar pra trás)\nQuem tem posto a mão no arado\n(Não pode olhar pra trás)",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7754,7 +6226,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Ó meu Jesus, comigo vem estar agora\nAté que no céu contigo eu vá morar",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -7766,7 +6238,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -7778,7 +6250,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -7794,7 +6266,19 @@ const LOUVORES_DATA = [
     "title": "NEGAR A MIM",
     "sections": [
       {
-        "text": "Não é falta de direção, \né falta de rendição\nA voz Dele eu conheço, \nmas será que eu obedeço?\nEu oro, fala Senhor, \nmas já tenho meu plano interior\nPeço que guieis os meus passos, \nmas resisto quando me tiras do meu espaço\nNão é que eu não entenda a Tua vontade, \né que a minha grita com intensidade\nMas Tu me chamas pra morrer, \npra viver o Teu querer",
+        "text": "Não é falta de direção, \né falta de rendição\nA voz Dele eu conheço, \nmas será que eu obedeço?",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Eu oro, fala Senhor, \nmas já tenho meu plano interior\nPeço que guieis os meus passos, \nmas resisto quando me tiras do meu espaço.",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Não é que eu não entenda a Tua vontade, \né que a minha grita com intensidade\nMas Tu me chamas pra morrer, \npra viver o Teu querer",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7806,7 +6290,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Não é no barulho que me perco, \né no meu querer encoberto\nSei o que a cruz exige de mim, \nMas luto pra manter meu jardim\nQuero Te seguir com liberdade, \nmas carrego a minha vontade\nAjuda-me a escolher o Teu sim, \nmesmo quando dói negar a mim",
+        "text": "Não é no barulho que me perco, \né no meu querer encoberto\nSei o que a cruz exige de mim, \nMas luto pra manter meu jardim",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Quero Te seguir com liberdade, \nmas carrego a minha vontade\nAjuda-me a escolher o Teu sim, \nmesmo quando dói negar a mim",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7818,7 +6308,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Não minha vontade, mas a Tua, \nmesmo quando eu não entendo\nMesmo quando eu não sinto, \nmesmo quando o caminho for estreito\nEu escolho Teu caminho, Teu governo, Teu destino\nPois onde eu insisto em prevalecer, \neu perco o que só Tu pode oferecer\nE no lugar em que me rendo por completo, \nTeu Espírito me enche pleno e reto",
+        "text": "Não minha vontade, mas a Tua, \nmesmo quando eu não entendo\nMesmo quando eu não sinto, \nmesmo quando o caminho for estreito",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Eu escolho Teu caminho, Teu governo, Teu destino\nPois onde eu insisto em prevalecer, \neu perco o que só Tu pode oferecer",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "E no lugar em que me rendo por completo, \nTeu Espírito me enche pleno e reto",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7866,7 +6368,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Nenhuma condenação há\nPara quem está em Ti, Jesus\nCuja vida coberta está\nPelo sangue que desceu da cruz",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -7877,13 +6379,31 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
+        "text": "E quase parando, sem força e vigor,\nA gente lê a Palavra\nE encontra bastante poder pra vencer\nContinuar a jornada",
         "isRefrao": false,
         "isRef": false,
-        "isInstruction": true
+        "isInstruction": false
       },
       {
-        "text": "Para quem está em Ti,\nQuerido Senhor... (2X)",
+        "text": "E vê que o passado ficou pra trás,\nPois Cristo, na cruz, tudo já venceu\nE saber que dele não lembra mais,\nEu canto pra glória de Deus!",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "É certo que provas virão,\nInvestidas do vil tentador,\nMas nenhuma condenação há,\nPara quem está em Ti,\nQuerido Senhor!",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Para quem está em Ti,\nQuerido Senhor...\nPara quem está em Ti,\nQuerido Senhor...",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -7891,7 +6411,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "NOME PRECIOSO 62 CC",
+    "title": "NOME PRECIOSO (62 CC )",
     "sections": [
       {
         "text": "Leva tu contigo o nome\nde Jesus, o Salvador\neste nome dá consolo\nseja no lugar que for",
@@ -7912,7 +6432,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -7924,7 +6444,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -7936,7 +6456,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -7944,41 +6464,47 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Nossa glória é Jesus conhecer",
+    "title": "NOSSA GLÓRIA É JESUS CONHECER",
     "sections": [
       {
-        "text": "Não há glória maior que a de Cristo, Senhor\nEm que nos gloriamos e rendemos-lhe louvor",
+        "text": "Não há glória maior \nque a de Cristo, Senhor\nEm que nos gloriamos \ne rendemos-lhe louvor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Seja religião, reputação ou poder\nNão há glória maior que a Jesus conhecer",
+        "text": "Seja religião, reputação ou poder\nNão há glória maior \nque a Jesus conhecer",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Tudo é perda pra mim por amor a Jesus\nEste mundo rejeito, enfim\nDeixo tudo pra trás para o alvo correr \nNossa glória é Jesus conhecer",
+        "text": "Tudo é perda pra mim \npor amor a Jesus\nEste mundo rejeito, enfim",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Deixo tudo pra trás \npara o alvo correr \nNossa glória \né Jesus conhecer",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "Conformar-me a Jesus \né o que quero fazer\nNão mediante meus feitos\nMas por Ele conhecer",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "O Seu conhecimento \né sublime e verás\nCristo me conquistou, \nEle me satisfaz",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REPETE ACIMA]",
         "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Conformar-me a Jesus é o que quero fazer\nNão mediante meus feitos\nMas por Ele conhecer",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O Seu conhecimento é sublime e verás\nCristo me conquistou, Ele me satisfaz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REPETE]",
-        "isRefrao": false,
         "isRef": false,
         "isInstruction": true
       },
@@ -7994,56 +6520,32 @@ const LOUVORES_DATA = [
     "title": "NOSSA MISSÃO",
     "sections": [
       {
-        "text": "Minha é a missão de proclamar a salvação",
+        "text": "Minha é a missão \nde proclamar a salvação\nMeu é o dever \nde ajudar às almas que estão\nno lamaçal da perdição",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Meu é o dever de ajudar às almas que estão\nno lamaçal da perdição",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Como, pois, invocarão àquele em quem \nnão creram?",
+        "text": "Como, pois, invocarão àquele em quem \nnão creram?\nE como crerão naquele \nde quem não ouviram?\nE como ouvirão,\nse não há mais pregação?",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E como crerão naquele \nde quem não ouviram?",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E como ouvirão,\nse não há mais pregação?",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tua é a missão de proclamar \na salvação",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Teu é o dever de ajudar às almas que estão\nno lamaçal da perdição",
+        "text": "Tua é a missão \nde proclamar a salvação\nTeu é o dever \nde ajudar às almas que estão\nno lamaçal da perdição",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8127,7 +6629,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "NÃO SEI PORQUE 377 CC",
+    "title": "NÃO SEI PORQUE (377 CC )",
     "sections": [
       {
         "text": "Não sei por que de Deus\nO amor a mim se revelou,\nPor que razão o Salvador\nPra Si me resgatou.",
@@ -8137,7 +6639,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Mas eu sei em quem tenho crido \nE estou bem certo que é poderoso\nPra guardar o meu tesouro\nAté o dia final.",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -8149,7 +6651,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8161,7 +6663,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8173,14 +6675,14 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "Não temas",
+    "title": "NÃO TEMAS",
     "sections": [
       {
         "text": "Como é importante meu Jesus,\nSentir que Tu estás comigo.\nPoder ouvir a Tua voz, \nA falar tão meiga no meu coração",
@@ -8195,28 +6697,22 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Senhor, eu ouço o Teu chamar,\nE me alegro em dizer: “Senhor, estou aqui.”",
+        "text": "Senhor, eu ouço o Teu chamar,\nE me alegro em dizer: “Senhor, estou aqui.”\nE sempre ouço a Tua voz tão linda,\nTão cheia de amor, que me diz",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E sempre ouço a Tua voz tão linda,\nTão cheia de amor, que me diz",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
-      },
-      {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "E então, tu verás o meu poder!",
@@ -8230,44 +6726,32 @@ const LOUVORES_DATA = [
     "title": "NÃO TENHAS SOBRE TI",
     "sections": [
       {
-        "text": "Não tenhas sobre ti\nUm só cuidado qualquer que seja",
+        "text": "Não tenhas sobre ti\nUm só cuidado qualquer que seja\nPois um, somente um\nSeria muito para ti!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pois um, somente um\nSeria muito para ti!",
-        "isRefrao": false,
+        "text": "É meu, somente meu, \nTodo o trabalho\nE o teu trabalho \né descansar em mim!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "É meu, somente meu, \nTodo o trabalho",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "E o teu trabalho é descansar em mim! (2X)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Não temas quando enfim\nTiveres que tomar decisão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Entrega tudo a mim\nConfia de todo o coração",
+        "text": "Não temas quando enfim\nTiveres que tomar decisão\nEntrega tudo a mim\nConfia de todo o coração",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -8277,97 +6761,19 @@ const LOUVORES_DATA = [
     "title": "O AMOR DE DEUS",
     "sections": [
       {
-        "text": "Graça sobre graça, recebi",
+        "text": "Graça sobre graça, recebi\nE da plenitude, renasci \nQuando atraído, me encontrei\nNo amor de Deus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E da plenitude, renasci",
+        "text": "Viva e poderosa salvação\nLuz que me alcançou na escuridão\nTodo meu pecado se apagou\nNo amor de Deus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Quando atraído, me encontrei",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "No amor de Deus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Viva e poderosa salvação",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Luz que me alcançou na escuridão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Todo meu pecado se apagou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "No amor de Deus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Logo eu, um pobre pecador",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Logo eu, tão fraco e tão devedor",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Logo eu, de graça recebi",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O amor de Deus",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Logo eu, finito e carnal",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Logo eu, diante de um Deus imortal",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Logo eu, de graça recebi",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O amor de Deus",
+        "text": "Logo eu, um pobre pecador\nLogo eu, tão fraco e tão devedor\nLogo eu, de graça recebi \nO amor de Deus\nLogo eu, finito e carnal\nLogo eu, diante de um Deus imortal\nLogo eu, de graça recebi \nO amor de Deus",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -8379,49 +6785,13 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "O amor de Deus é rico em benefícios",
+        "text": "O amor de Deus é rico em benefícios\nO amor de Deus não mede sacrifícios\nDos braços desse amor\nRecebo o perdão comprado por Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "O amor de Deus não mede sacrifícios",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dos braços desse amor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Recebo o perdão comprado por Jesus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O amor de Deus é puro e consciente",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Como as manhãs é firme e constante",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Que se entregou na cruz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E a morte derrotou o amor de Jesus",
+        "text": "O amor de Deus é puro e consciente\nComo as manhãs é firme e constante\nQue se entregou na cruz\nE a morte derrotou o amor de Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -8474,10 +6844,10 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
+        "text": "[REFRÃO]",
         "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "O dia da vitória em que\nvirá meu Salvador Sim, Jesus Cristo, \no Senhor, virá nas nuvens para me levar",
@@ -8494,7 +6864,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "O Estandarte 456 CC",
+    "title": "O ESTANDARTE (456 CC)",
     "sections": [
       {
         "text": "O estandarte desta Igreja \nLevantemos sem temor \nEla é a muito amada esposa \nDo bendito Salvador\nÉ Jesus o comandante\nVerdadeiro que a conduz\nSomos nós os seus soldados \nNesta Igreja de Jesus",
@@ -8535,7 +6905,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "O evangelho (CC 188)",
+    "title": "O EVANGELHO (188 CC)",
     "sections": [
       {
         "text": "A nova do evangelho\njá se fez ouvir aqui;\nBoas novas tão alegres,\nelas são pra quem ouvir.",
@@ -8569,7 +6939,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8587,7 +6957,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8605,14 +6975,14 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "O exilado (HC 36)",
+    "title": "O EXILADO (36 HC)",
     "sections": [
       {
         "text": "Da linda pátria estou bem longe,\nCansado estou;\nEu tenho de Jesus saudade;\nOh, quando é que eu vou?",
@@ -8658,7 +7028,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -8674,19 +7044,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Oh que paz perdemos sempre!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Oh que dor no coração! \nSó porque nós não levamos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "tudo a Deus em oração!",
+        "text": "Oh que paz perdemos sempre! \nOh que dor no coração! \nSó porque nós não levamos \ntudo a Deus em oração!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -8698,19 +7056,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Haverá um outro amigo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "De tão grande compaixão?\nOs contritos Jesus Cristo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Sempre atende em oração.",
+        "text": "Haverá um outro amigo \nDe tão grande compaixão?\nOs contritos Jesus Cristo \nSempre atende em oração.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -8734,27 +7080,21 @@ const LOUVORES_DATA = [
     "sections": [
       {
         "text": "O meu louvor é fruto\ndo meu amor por Ti, Jesus\nde lábios que confessam o Teu nome",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "É fruto de Tua graça\ne da paz que encontro em Ti",
-        "isRefrao": false,
+        "text": "É fruto de Tua graça\ne da paz que encontro em Ti\nE do Teu Espírito\nque habita em mim,\nque habita em mim...",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E do Teu Espírito\nque habita em mim,\nque habita em mim...",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
-      },
-      {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
       },
       {
         "text": "Ainda que as trevas \nvenham me cercar,\nAinda que os montes\ndesabem sobre mim",
@@ -8769,10 +7109,10 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "Ainda que cadeias\nvenham me prender,\nainda que os homens\nse levantem contra mim",
@@ -8781,13 +7121,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Meus lábios não se fecharão;\npra sempre hei de Te louvar...",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pra sempre hei de Te louvar!",
+        "text": "Meus lábios não se fecharão;\npra sempre hei de Te louvar...\nPra sempre hei de Te louvar!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -8811,7 +7145,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Há poder, sim, força sem igual,\nsó no sangue de Jesus!\nHá poder, sim, prova-o, pecador\nOh! Aceita o dom de Jesus",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -8829,7 +7163,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8847,7 +7181,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8865,14 +7199,14 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "O Teu amor",
+    "title": "O TEU AMOR",
     "sections": [
       {
         "text": "O Teu amor se estende além dos céus\nConstantemente, mostras que és fiel\nTua justiça é majestosa como os montes\nSabedoria mais profunda do que o mar\nMas vens comigo estar",
@@ -8898,127 +7232,49 @@ const LOUVORES_DATA = [
     "title": "OBREIRO APROVADO",
     "sections": [
       {
-        "text": "Você lembra quando foi",
+        "text": "Você lembra quando foi\nQue o Senhor o separou\nDentre todos os amigos?\nDentre os entes mais queridos?",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Que o Senhor o separou",
+        "text": "E lhe encheu a alma toda\nDe paixão tão desmedida\nPelas almas, pelas vidas,\nQue não sabem pra onde vão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Dentre todos os amigos?",
+        "text": "Mas o tempo foi passando\nE a paixão se esfriou\nÓh meu Senhor,\nResponda-me por que?",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Dentre os entes mais queridos?",
+        "text": "[REPETE ACIMA]",
+        "isRefrao": false,
+        "isRef": false,
+        "isInstruction": true
+      },
+      {
+        "text": "Você precisa ser Obreiro Aprovado\nE não ser acusado por ninguém\nE andar como meu Filho andou\nE amar com genuíno amor\nQue Eu lhe dei",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E lhe encheu a alma toda",
+        "text": "Mas, se me buscar na Palavra,\nDe coração na Palavra\nEu dou-lhe minha Palavra\nMe achará e aprovado será",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "De paixão tão desmedida",
+        "text": "Você precisa ser Obreiro Aprovado\nE não ser acusado por ninguém\nE andar como meu Filho andou\nE amar com genuíno amor\nQue Eu lhe dei",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Pelas almas, pelas vidas,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Que não sabem pra onde vão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Mas o tempo foi passando",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E a paixão se esfriou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Óh meu Senhor,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Responda-me por que? (2x)",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Você precisa ser Obreiro Aprovado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E não ser acusado por ninguém",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E andar como meu Filho andou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E amar com genuíno amor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Que Eu lhe dei",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Mas, se me buscar na Palavra,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "De coração na Palavra",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu dou-lhe minha Palavra",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Me achará e aprovado será (2x)",
+        "text": "Mas, se me buscar na Palavra,\nDe coração na Palavra\nEu dou-lhe minha Palavra\nMe achará e aprovado será",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9026,7 +7282,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Oferta Agradável a Ti",
+    "title": "OFERTA AGRADÁVEL A TI",
     "sections": [
       {
         "text": "A Tua Palavra escondi\nGuardada no meu coração\nPra eu não pecar contra Ti, Senhor\nA Tua Palavra escondi",
@@ -9059,7 +7315,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Até que o mundo possa ver\nTua glória em meu rosto brilhar [2X]",
+        "text": "Até que o mundo possa ver\nTua glória em meu rosto brilhar\nAté que o mundo possa ver\nTua glória em meu rosto brilhar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9077,7 +7333,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "E quando a alma está abatida\nBusco sempre aquela Rocha \nque é mais forte que eu,\nque é mais forte que eu",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -9089,13 +7345,13 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -9108,7 +7364,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "OLHANDO PARA CRISTO CC 579",
+    "title": "OLHANDO PARA CRISTO (579 CC)",
     "sections": [
       {
         "text": "Ruge forte, contundente, a guerra do pecado\nMas os seus clangores vis não podem me afligir",
@@ -9123,13 +7379,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Olhando para Cristo, grande autor da salvação\nProssigo, pois avisto soberano galardão",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "De Deus ministro me revisto\nNo poder do meu Senhor\nPara servi-lo com todo ardor",
+        "text": "Olhando para Cristo, grande autor da salvação\nProssigo, pois avisto soberano galardão\nDe Deus ministro me revisto\nNo poder do meu Senhor\nPara servi-lo com todo ardor",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -9141,13 +7391,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Vem ó Deus, desperta o amor da geração eleita",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Para os teus obreiros concede unção",
+        "text": "Vem ó Deus, desperta o amor da geração eleita \nPara os teus obreiros concede unção",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9159,25 +7403,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Desprezando deste mundo as sendas ardilosas",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Volto o meu olhar pra cruz de quem me resgatou",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dele tenho na alma, então, as bênçãos mui gloriosas",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E feliz com cristo cantando vou",
+        "text": "Desprezando deste mundo as sendas ardilosas \nVolto o meu olhar pra cruz de quem me resgatou\nDele tenho na alma, então, as bênçãos mui gloriosas \nE feliz com cristo cantando vou",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9250,7 +7476,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "OS QUE CONFIAM CC 451",
+    "title": "OS QUE CONFIAM (451 CC)",
     "sections": [
       {
         "text": "Ceifeiros da seara santa,\nSois poucos, débeis sois;\nPorém, é forte o vosso Mestre;\nAvante! Avante, pois!",
@@ -9259,20 +7485,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Os que confiam no Senhor obterão vigor.\nForças novas hão de ter,\nSubirão até as alturas,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Andarão alegres sempre,\nCorrerão sem se cansar;",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Andarão alegres sempre,\nCorrerão sem se cansar.\nCorrerão e sem fadiga,\nComo águias voarão.",
-        "isRefrao": false,
+        "text": "Os que confiam no Senhor obterão vigor.\nForças novas hão de ter,\nSubirão até as alturas,\nAndarão alegres sempre,\nCorrerão sem se cansar;\nAndarão alegres sempre,\nCorrerão sem se cansar.\nCorrerão e sem fadiga,\nComo águias voarão.",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -9284,7 +7498,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -9296,7 +7510,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -9306,13 +7520,7 @@ const LOUVORES_DATA = [
     "title": "OS QUE CONFIAM NO SENHOR",
     "sections": [
       {
-        "text": "Os que confiam no Senhor\nSão como o monte de Sião,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Que não se abala,\nMas permanece para sempre",
+        "text": "Os que confiam no Senhor\nSão como o monte de Sião,\nQue não se abala,\nMas permanece para sempre",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9330,14 +7538,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Cale-se diante Dele a terra,\nDobre os joelhos, ergam as mãos,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois o Senhor é Deus,\nO Senhor é Rei dos povos!",
-        "isRefrao": false,
+        "text": "Cale-se diante Dele a terra,\nDobre os joelhos, ergam as mãos,\nPois o Senhor é Deus,\nO Senhor é Rei dos povos!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -9349,7 +7551,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -9360,7 +7562,7 @@ const LOUVORES_DATA = [
     "sections": [
       {
         "text": "Vamos agora celebrar\nA Santa ordenança do Senhor\nHumilde, eu me prosto a meditar\nNa Palavra, com muito temor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -9378,18 +7580,18 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REPETE ACIMA]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": true
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
-        "text": "Na Palavra, com muito temor! (2 X)",
+        "text": "Na Palavra, com muito temor!\nNa Palavra, com muito temor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9397,7 +7599,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "PASTOR DIVINO 152 CC",
+    "title": "PASTOR DIVINO (152 CC)",
     "sections": [
       {
         "text": "Ouve-nos, Pastor divino,\nNós, que neste bom lugar\nTeu rebanho congregado\nDesejamos Te adorar",
@@ -9406,7 +7608,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Cristo amado, Cristo amado\nVem Teu povo abençoar... [2X]",
+        "text": "Cristo amado, Cristo amado\nVem Teu povo abençoar... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9418,7 +7620,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Aos enfermos, aos enfermos\nMestre digna-te acudir... [2X]",
+        "text": "Aos enfermos, aos enfermos\nMestre digna-te acudir... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9430,7 +7632,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Dá-lhe os pastos, dá-lhe os pastos\nDe celeste e doce amor... [2X]",
+        "text": "Dá-lhe os pastos, dá-lhe os pastos\nDe celeste e doce amor... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9442,7 +7644,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Cantaremos, cantaremos\nTua afável proteção... [2X]",
+        "text": "Cantaremos, cantaremos\nTua afável proteção... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9465,16 +7667,16 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Poderoso Deus (3 X)\nMinh’alma anseia por Ti",
-        "isRefrao": false,
+        "text": "Poderoso Deus, Poderoso Deus, Poderoso Deus\nMinh’alma anseia por Ti",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "Ao que está assentado no trono\ne ao Cordeiro Seja o louvor",
@@ -9489,9 +7691,15 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO] (2 X)",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -9503,7 +7711,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Primeiro Amor",
+    "title": "PRIMEIRO AMOR",
     "sections": [
       {
         "text": "Quero voltar ao início de tudo,\nEncontrar-me contigo Senhor\nQuero rever meus conceitos,\nValores, eu quero reconstruir",
@@ -9536,7 +7744,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE TUDO]",
+        "text": "[REPETE ACIMA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -9553,151 +7761,25 @@ const LOUVORES_DATA = [
     "title": "PURIFICAÇÃO",
     "sections": [
       {
-        "text": "Venho à Tua casa, meu Senhor",
+        "text": "Venho à Tua casa, meu Senhor \nEntro em Teus átrios com temor\nPreciso tanto compreender por que razão \nDesejas ter meu coração\nChego à Tua casa sem saber \nSe hás de aceitar meu bem querer\nPois de conflitos e pecados meu cantar, Macularia Teu altar.",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Entro em Teus átrios com temor",
+        "text": "Ah, meu Senhor, faz meu louvor \nPurificar-se em Teu altar, em Teu altar,\nSepara a dor da acusação\nLiberta-me com Teu perdão, com Teu perdão\nLiberta a minha adoração, adoração",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Preciso tanto compreender por que razão",
+        "text": "Trago-Te um culto racional \nDe corpo inteiro, integral\nCom sacrifício vivo, santo e passional \nAções de graça e contrição\nSe me julgares, meu Senhor, \nNada direi em meu favor\nPois, sei se nada em minha vida restaurar, \nA casa em terra cairá,",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Desejas ter meu coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Chego à Tua casa sem saber",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se hás de aceitar meu bem querer",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois de conflitos e pecados meu cantar, Macularia Teu altar.",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ah, meu Senhor, faz meu louvor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Purificar-se em Teu altar, em Teu altar,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Separa a dor da acusação",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Liberta-me com Teu perdão, com Teu perdão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Liberta a minha adoração, adoração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Trago-Te um culto racional",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "De corpo inteiro, integral",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Com sacrifício vivo, santo e passional",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ações de graça e contrição",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se me julgares, meu Senhor,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nada direi em meu favor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pois, sei se nada em minha vida restaurar,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A casa em terra cairá,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Trás meu Senhor, transformação",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Aceita a minha adoração, adoração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dá-me o ardor da devoção,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Dá-me em Tua casa o Teu favor, o Teu favor,",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Recebe um pobre pecador, um pecador (2X)",
+        "text": "Trás meu Senhor, transformação \nAceita a minha adoração, adoração\nDá-me o ardor da devoção, \nDá-me em Tua casa o Teu favor, o Teu favor, \nRecebe um pobre pecador, um pecador [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9726,26 +7808,14 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Eu não mereço a salvação\nMas o Senhor me deu seu perdão\nE me livrou do império das trevas",
-        "isRefrao": false,
+        "text": "Eu não mereço a salvação\nMas o Senhor me deu seu perdão\nE me livrou do império das trevas\nMe colocou no reino da luz",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Me colocou no reino da luz",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Que excelsa graça! Que amor!\nQue Deus ao mundo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Assim demonstrou\nE pela fé em Cristo fui salvo\nOh, como eu amo meu Redentor",
-        "isRefrao": false,
+        "text": "Que excelsa graça! Que amor!\nQue Deus ao mundo assim demonstrou\nE pela fé em Cristo fui salvo\nOh, como eu amo meu Redentor",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -9768,8 +7838,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -9797,8 +7867,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Se não fosse por Tua graça\nE por Teu amor! (2X)",
-        "isRefrao": false,
+        "text": "Se não fosse por Tua graça\nE por Teu amor!\nSe não fosse por Tua graça\nE por Teu amor!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -9810,7 +7880,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -9822,7 +7892,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -9882,7 +7952,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Quem somos nós",
+    "title": "QUEM SOMOS NÓS",
     "sections": [
       {
         "text": "Quem somos nós neste mundo aqui?\nE qual padrão temos a seguir\nNós somos servos do Eterno Deus\nQue por Sua graça nos escolheu",
@@ -9944,31 +8014,31 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "É força e proteção\nEle é a fonte de libertação\nPra quem confia no Senhor... (2 X)",
+        "text": "É força e proteção\nEle é a fonte de libertação\nPra quem confia no Senhor... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Me treina pra lutar\nme mostra onde devo eu andar\nGlórias ao nome do Senhor... (2 X)",
+        "text": "Me treina pra lutar\nme mostra onde devo eu andar\nGlórias ao nome do Senhor... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "É força e proteção\nEle é a fonte de libertação\nPra quem confia no Senhor... (2 X)",
+        "text": "É força e proteção\nEle é a fonte de libertação\nPra quem confia no Senhor... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -9976,7 +8046,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Quero ser como Cristo",
+    "title": "QUERO SER COMO CRISTO",
     "sections": [
       {
         "text": "Oh, (meu) Deus, vem,\nMolde pra Ti meu coração, Deus \nE tudo que sou mostre quem És, Deus\nEu quero viver pra Teu prazer,\nPra Teu prazer (2x)",
@@ -10076,7 +8146,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Recebemos a missão",
+    "title": "RECEBEMOS A MISSÃO",
     "sections": [
       {
         "text": "Recebemos a missão \nde ao mundo proclamar \nA Palavra de quem fez \no universo, a terra e o mar",
@@ -10091,7 +8161,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Somos de Deus, Somos do Senhor\nA imagem do Senhor, unidos pelo amor... [2X]",
+        "text": "Somos de Deus, Somos do Senhor\nA imagem do Senhor, unidos pelo amor...\nSomos de Deus, Somos do Senhor\nA imagem do Senhor, unidos pelo amor...",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -10111,7 +8181,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Redenção",
+    "title": "REDENÇÃO",
     "sections": [
       {
         "text": "Vivo hoje estou aqui\nPois Ele decidiu me amar\nE então eu posso livre andar",
@@ -10144,7 +8214,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Tudo entregar, vou me render, \nAos Seus pés vou me lançar... [3X]",
+        "text": "Tudo entregar, vou me render, \nAos Seus pés vou me lançar... [3 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -10162,7 +8232,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Jesus Cristo Rei dos reis\nNos trouxe a redenção\nA esperança retornou\nGraça e paz nos revelou. [2X]",
+        "text": "Jesus Cristo Rei dos reis\nNos trouxe a redenção\nA esperança retornou\nGraça e paz nos revelou. [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -10228,7 +8298,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -10258,7 +8328,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -10280,19 +8350,31 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Ó Rei das nações,\nQuem não Te louvará?\nPois só Teu nome é santo! [2X]",
+        "text": "Ó Rei das nações,\nQuem não Te louvará?\nPois só Teu nome é santo!",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Todas as nações virão\ne adorarão diante de Ti\nPois os Teus atos de justiça\nse fizeram manifestos... [2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "Todas as nações virão\ne adorarão diante de Ti\nPois os Teus atos de justiça\nse fizeram manifestos... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO 2X]",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
         "isInstruction": false
@@ -10300,7 +8382,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Reina em mim",
+    "title": "REINA EM MIM",
     "sections": [
       {
         "text": "Sobre toda a terra Tu és o rei\nsobre as montanhas e o pôr-do-sol",
@@ -10315,13 +8397,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Reina em mim com o Teu poder\nsobre a escuridão, sobre os sonhos meus",
-        "isRefrao": true,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tu és o senhor de tudo o que sou\nvem reinar em mim, Senhor!",
+        "text": "Reina em mim com o Teu poder\nsobre a escuridão, sobre os sonhos meus\nTu és o senhor de tudo o que sou\nvem reinar em mim, Senhor!",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -10357,7 +8433,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Vem reinar em mim, Senhor! [2 X]",
+        "text": "Vem reinar em mim, Senhor!\nVem reinar em mim, Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -10462,21 +8538,15 @@ const LOUVORES_DATA = [
     "title": "REPOUSA, ALMA MINHA",
     "sections": [
       {
-        "text": "Minha alma está a esperar por Ti",
-        "isRefrao": false,
+        "text": "Minha alma está a esperar por Ti\nÉs o Autor da minha Salvação\nÉs o meu refúgio,\nÉs o meu Deus",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "És o Autor da minha Salvação",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "És o meu refúgio,\nÉs o meu Deus [2X]",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -10486,34 +8556,40 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Repousa, alma minha\nRepousa sobre a Rocha, repousa",
+        "text": "Repousa, alma minha\nRepousa sobre a Rocha, repousa\nMeu refúgio, meu Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Meu refúgio, meu Senhor!",
+        "text": "Repousa, a minha esperança\nRepousa sobre a Rocha, repousa\nMeu refúgio, meu Senhor Jesus!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Repousa, a minha esperança\nRepousa sobre a Rocha, repousa",
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "Alma minha, tão somente em Deus:",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Meu refúgio, meu Senhor Jesus!",
+        "text": "Repousa, alma minha\nRepousa sobre a Rocha, repousa\nMeu refúgio, meu Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA 1X]",
+        "text": "Repousa, a minha esperança\nRepousa sobre a Rocha, repousa\nMeu refúgio, meu Senhor Jesus!",
         "isRefrao": false,
         "isRef": false,
-        "isInstruction": true
+        "isInstruction": false
       }
     ]
   },
@@ -10540,7 +8616,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -10552,7 +8628,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -10564,14 +8640,14 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "Salmo 01",
+    "title": "SALMO 01",
     "sections": [
       {
         "text": "Bem-aventurado o homem que não anda\nSegundo o conselho dos ímpios\nNem se detém no caminho dos pecadores,\nNem se assenta na roda dos escarnecedores\nAntes, tem o seu prazer na lei do Senhor\nE na Sua lei medita dia e noite\nPois será como uma árvore plantada\nJunto a ribeiros de água",
@@ -10651,7 +8727,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Bendize, ó minh’alma\nao Senhor! (3 X)",
+        "text": "Bendize, ó minh’alma\nao Senhor! [3 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -10662,9 +8738,15 @@ const LOUVORES_DATA = [
     "title": "SALMO 115",
     "sections": [
       {
-        "text": "Não a nós, Senhor, não a nós, Senhor,\nmas ao Teu nome dá glória\nPor amor da Tua misericórdia\ne da Tua fidelidade [2X]",
-        "isRefrao": false,
+        "text": "Não a nós, Senhor, não a nós, Senhor,\nmas ao Teu nome dá glória\nPor amor da Tua misericórdia\ne da Tua fidelidade",
+        "isRefrao": true,
         "isRef": false,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -10675,7 +8757,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -10687,7 +8769,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -10728,25 +8810,19 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Louvai-o abismos \nE monstros marinhos\nFogo e neve e os que executam a voz",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Montes e árvores e os animais",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Homens, mulheres,\nCrianças e velhos",
-        "isRefrao": false,
+        "text": "Montes e árvores e os animais\nHomens, mulheres,\nCrianças e velhos",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "Louvem Seu nome, pois só Ele é excelso\nSua majestade é acima da terra e do céu",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -10764,12 +8840,12 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "Louvai ao Senhor (3X)",
+        "text": "Louvai ao Senhor, Louvai ao Senhor, Louvai ao Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -10780,117 +8856,51 @@ const LOUVORES_DATA = [
     "title": "SALMO 19",
     "sections": [
       {
-        "text": "A Lei do Senhor é perfeita",
+        "text": "A Lei do Senhor é perfeita \nE restaura a alma \nO testemunho do Senhor é fiel \nE dá sabedoria aos símplices",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "E restaura a alma",
-        "isRefrao": false,
+        "text": "São mais desejáveis \nDo que o ouro depurado \nSão mais doces que o mel \nE o destilar dos favos",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "O testemunho do Senhor é fiel",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E dá sabedoria aos símplices",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "São mais desejáveis",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Do que o ouro depurado",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "São mais doces que o mel",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E o destilar dos favos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Os preceitos do Senhor são retos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E alegram o coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O mandamento do Senhor é puro",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E ilumina os olhos",
+        "text": "Os preceitos do Senhor são retos \nE alegram o coração \nO mandamento do Senhor é puro\nE ilumina os olhos",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "O temor do Senhor é límpido",
+        "text": "O temor do Senhor é límpido \nOs juízos do Senhor são verdadeiros\nE todos igualmente justos\nE permanece para sempre",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Os juízos do Senhor são verdadeiros",
-        "isRefrao": false,
-        "isRef": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
-        "text": "E todos igualmente justos",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E permanece para sempre",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "[REFRÃO 2X]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "Salmo 51",
+    "title": "SALMO 51",
     "sections": [
       {
         "text": "Compadece-te de mim\nPois, Oh Deus, eu clamo a Ti\nE com nobre compaixão\nLimpa a minha transgressão\nPurifica meu agir\nVem minha vida redimir",
@@ -10934,20 +8944,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "O pardal encontrou casa,\na andorinha ninho para si...",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu encontrei Teus altares,\nSenhor, Rei meu e Deus meu...",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Eu encontrei Teus altares,\nSenhor, Rei meu e Deus meu...",
-        "isRefrao": false,
+        "text": "O pardal encontrou casa,\na andorinha ninho para si...\nEu encontrei Teus altares,\nSenhor, Rei meu e Deus meu...\nEu encontrei Teus altares,\nSenhor, Rei meu e Deus meu...",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -10958,10 +8956,10 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "Pois o Senhor é sol e escudo, \ndá graça e glória!\nNão negará bem algum\naos que vivem corretamente.",
@@ -10970,10 +8968,10 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       }
     ]
   },
@@ -11034,7 +9032,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Salvo, salvo pela graça \nMediante a fé em Cristo\nEu sou salvo, Não vem de mim [2x]",
+        "text": "Salvo, salvo pela graça \nMediante a fé em Cristo\nEu sou salvo, Não vem de mim [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11075,13 +9073,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Santo, Santo, Santo, Deus onipotente!\nTuas obras louvam Teu nome com fervor\nSanto, Santo, Santo, justo e compassivo",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "És um só Deus, supremo Criador",
+        "text": "Santo, Santo, Santo, Deus onipotente!\nTuas obras louvam Teu nome com fervor\nSanto, Santo, Santo, justo e compassivo\nÉs um só Deus, supremo Criador",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11124,7 +9116,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Seguir a Cristo",
+    "title": "SEGUIR A CRISTO",
     "sections": [
       {
         "text": "Seguir a Cristo, oh quanto anelo\nTer minha vida cada dia com meu Rei\nMas quão difícil é obedecê-lo;\nAndar aqui como Ele mesmo quer\nSou fraco eu sei, tropeço a todo instante \nMas mesmo assim confiante estou",
@@ -11145,7 +9137,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "De levar-me a ser mais um \nNa grande multidão (2x)",
+        "text": "De levar-me a ser mais um \nNa grande multidão\nDe levar-me a ser mais um \nNa grande multidão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11153,7 +9145,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Segurança (375 CC)",
+    "title": "SEGURANÇA (375 CC)",
     "sections": [
       {
         "text": "Vivo feliz, pois sou de Jesus, \ne já desfruto o gozo da luz.\nSou por Jesus herdeiro de Deus, \nEle me leva à glória dos céus.",
@@ -11162,7 +9154,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Canta minha alma, canta ao Senhor!\nRende-lhe sempre ardente louvor... [2 X]",
+        "text": "Canta minha alma, canta ao Senhor!\nRende-lhe sempre ardente louvor...\nCanta minha alma, canta ao Senhor!\nRende-lhe sempre ardente louvor...",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
@@ -11175,7 +9167,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -11187,14 +9179,14 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
     ]
   },
   {
-    "title": "Seja engrandecido",
+    "title": "SEJA ENGRANDECIDO",
     "sections": [
       {
         "text": "Seja engrandecido, ó Deus da minha vida\nTu és o Deus da minha salvação\nÉs a minha rocha, a minha segurança,\nmeus lábios sempre Te exaltarão!",
@@ -11229,7 +9221,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Sonda-me, conhece-me",
+    "title": "SONDA-ME, CONHECE-ME",
     "sections": [
       {
         "text": "Sonda-me, conhece-me, prova-me e vê\nCada afeto inútil oculto em mim",
@@ -11351,7 +9343,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "As ondas atendem \nao meu mandar: Sossegai!\nSeja o encapelado mar,\na ira dos homens,\no gênio do mal\nTais águas não podem  \na nau tragar,\nque leva o Senhor,\nRei do céu e mar\nPois todos ouvem\no meu mandar:\nSossegai! Sossegai!\nConvosco estou \npara vos salvar;\nSim, sossegai!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -11369,7 +9361,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -11387,7 +9379,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -11471,7 +9463,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Sê minha vida (CC 363)",
+    "title": "Sê minha vida (363 CC)",
     "sections": [
       {
         "text": "Sê minha vida, ó Deus de poder;\nQue eu nunca perca a visão do Teu ser.\nSe é noite ou dia, Tu és minha luz;\nTua presença meus passos conduz.",
@@ -11494,7 +9486,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Só em Jesus",
+    "title": "SÓ EM JESUS",
     "sections": [
       {
         "text": "Só em Jesus confiarei,\nÉ minha força, luz, canção.\nPedra angular que me sustém \nNa tempestade ou sequidão.",
@@ -11553,7 +9545,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Te agradeço, ó Pai",
+    "title": "TE AGRADEÇO, Ó PAI",
     "sections": [
       {
         "text": "Te agradeço, ó Pai\npelo amor derramado,\npela Tua provisão,\nnada tem nos faltado;",
@@ -11609,14 +9601,14 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Não sou apenas servo, Teu amigo me tornei",
+        "text": "Não sou apenas servo, \nTeu amigo me tornei",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Te louvarei, Não importam as circunstâncias\nAdorarei somente a Ti, Jesus!",
-        "isRefrao": false,
+        "text": "Te louvarei, \nNão importam as circunstâncias\nAdorarei \nsomente a Ti, Jesus!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -11627,10 +9619,10 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "Somente a Ti, Jesus!",
@@ -11669,13 +9661,13 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Temos sede de Ti\nNos conforme, ó Deus,\na Jesus Pra sempre",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "Teu é o reino e poder\nGlória e honra sem fim\nSanto Deus, pra sempre",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -11686,7 +9678,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "Vem Deus, mostrar em nós sempre\nSó Jesus Cristo\nTeu reino vem, faz Teu querer\nA Ti clamamos... (2X)",
+        "text": "Vem Deus, mostrar em nós sempre\nSó Jesus Cristo\nTeu reino vem, faz Teu querer\nA Ti clamamos... [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11706,16 +9698,10 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Teu olhar",
+    "title": "TEU OLHAR",
     "sections": [
       {
-        "text": "Teus olhos revelam que eu",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nada posso esconder\nE que não sou nada sem Ti,\nFiel Senhor",
+        "text": "Teus olhos revelam que eu \nNada posso esconder\nE que não sou nada sem Ti,\nFiel Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11746,7 +9732,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -11774,25 +9760,25 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Faça Tua vontade através de nós\nQue o Teu Reino venha\nQue o Teu Reino venha [2x]",
+        "text": "Faça Tua vontade através de nós\nQue o Teu Reino venha\nQue o Teu Reino venha [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Tu És a luz que brilha sobre a escuridão\nTu És a paz que acalma todo coração\nÉs o pão do faminto, a força do aflito\nE nós somos Teus pés e Tuas mãos\nTua verdade sempre permanecerá\nDo Teu amor quem poderá nos separar\nÉs Fiel e pra sempre, Teu povo sustenta\nE então o mundo inteiro verá",
+        "text": "Tu És a luz que brilha sobre a escuridão\nTu És a paz que acalma todo coração\nÉs o pão do faminto, a força do aflito\nE nós somos Teus pés e Tuas mãos",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "O poder do grande Rei",
+        "text": "Tua verdade sempre permanecerá\nDo Teu amor quem poderá nos separar\nÉs Fiel e pra sempre, Teu povo sustenta\nE então o mundo inteiro verá\nO poder do grande Rei",
         "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Justiça e paz se encontram\nE nasce a alegria\nEste é o Teu Reino\nEste é o Teu Reino [2x]",
+        "text": "Justiça e paz se encontram\nE nasce a alegria\nEste é o Teu Reino\nEste é o Teu Reino [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11804,15 +9790,9 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão 2X]",
+        "text": "[REFRÃO]",
         "isRefrao": true,
         "isRef": true,
-        "isInstruction": false
-      },
-      {
-        "text": "Tua verdade sempre permanecerá\nDo Teu amor quem poderá nos separar\nÉs Fiel e pra sempre, Teu povo sustenta\nE então o mundo inteiro verá\nO poder do grande Rei",
-        "isRefrao": false,
-        "isRef": false,
         "isInstruction": false
       }
     ]
@@ -11827,13 +9807,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Exaltamos Teu doce nome",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Pelo amor, pela cruz,\nPor Teu Filho Jesus",
+        "text": "Exaltamos Teu doce nome\nPelo amor, pela cruz,\nPor Teu Filho Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11875,21 +9849,21 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Toma o meu coração E toda a minha alma \nEu vivo só pra Ti",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "Sempre que eu respirar \nCada vez que eu acordar \nFaz o Teu querer em mim...",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "[REPETE REFRÃO]",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": true
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
+        "isInstruction": false
       },
       {
         "text": "[REPETE ACIMA]",
@@ -11938,55 +9912,19 @@ const LOUVORES_DATA = [
     "title": "TUA OBRA EM NÓS",
     "sections": [
       {
-        "text": "Vejo que não sou, quem eu devo ser",
+        "text": "Vejo que não sou, quem eu devo ser\nMas por Tua mão já não sou quem fui\nLiberdade e amor em meu interior\nFruto do Teu Santo Espírito",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Mas por Tua mão já não sou quem fui",
+        "text": "Guie o meu andar em Tua verdade\nA expressão do Filho faz crescer em mim",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Liberdade e amor em meu interior",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Fruto do Teu Santo Espírito",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Guie o meu andar em Tua verdade",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "A expressão do Filho faz crescer em mim",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Nada vencerá Teu amor\nDe paz encheu o meu coração",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Bondade encontro no Teu perdão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Novo sou, pois Tua luz, traz direção",
+        "text": "Nada vencerá Teu amor\nDe paz encheu o meu coração\nBondade encontro no Teu perdão\nNovo sou, pois Tua luz, traz direção",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -11998,13 +9936,7 @@ const LOUVORES_DATA = [
         "isInstruction": true
       },
       {
-        "text": "E pra Tua igreja servir\nVer Tua face no meu irmão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Contemplar Tua obra em nós\nAté o fim, permanecer, em Teu amor",
+        "text": "E pra Tua igreja servir\nVer Tua face no meu irmão\nContemplar Tua obra em nós\nAté o fim, permanecer, em Teu amor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -12022,7 +9954,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Tudo entregarei! Tudo entregarei!\nSim, por Ti, Jesus bendito, tudo deixarei!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -12034,7 +9966,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -12046,7 +9978,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -12058,7 +9990,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -12070,7 +10002,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -12086,13 +10018,13 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Um povo justificado\nPelo sangue do Salvador \nUm caminho que nos conduz\nPara o Reino de Jesus\nPara o Reino de Jesus (2X)",
+        "text": "Um povo justificado\nPelo sangue do Salvador \nUm caminho que nos conduz\nPara o Reino de Jesus\nPara o Reino de Jesus [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Para o Reino de Jesus (2X)",
+        "text": "Para o Reino de Jesus, \nPara o Reino de Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -12100,7 +10032,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Um vaso de benção (304 CC)",
+    "title": "UM VASO DE BENÇÃO (304 CC)",
     "sections": [
       {
         "text": "Quero ser um vaso de bênção\nSim, um vaso escolhido de Deus\nPara as novas levar aos perdidos\nBoas-novas que vêm lá dos céus",
@@ -12157,7 +10089,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Oh! Vem, vem, vem, vem,\nSim, vem à igreja comigo,\nSim, vamos servir ao Senhor\nPois maior alegria não temos\nDo que ter comunhão em amor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -12168,8 +10100,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -12180,8 +10112,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -12192,8 +10124,8 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[Refrão]",
-        "isRefrao": false,
+        "text": "[REFRÃO]",
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -12203,19 +10135,13 @@ const LOUVORES_DATA = [
     "title": "VEM VISITA TUA IGREJA (580 CC)",
     "sections": [
       {
-        "text": "Vem, visita a Tua igreja\nÓ Bendito Salvador!",
+        "text": "Vem, visita a Tua igreja\nÓ Bendito Salvador!\nSem Tua graça ela murcha\nficará e sem vigor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Sem Tua graça ela murcha\nficará e sem vigor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Vivifica, Vivifica\nNossas almas, ó Senhor (2x)",
+        "text": "Vivifica, Vivifica\nNossas almas, ó Senhor \nVivifica, Vivifica\nNossas almas, ó Senhor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -12229,7 +10155,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "Vida Pura",
+    "title": "VIDA PURA",
     "sections": [
       {
         "text": "Ajuda-me a manter limpa \nA minha mente, ó Deus\nAjuda-me a pensar no que é bom",
@@ -12244,61 +10170,31 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Porque eu faço o que manda a minha mente\nE desejo agradar ao meu Senhor.",
+        "text": "Porque eu faço o que manda a minha mente\nE desejo agradar ao meu Senhor.\nSe eu pensar no que é bom, \nLimpo estarei perante Deus,\nSe eu pensar no que é mau, perecerei!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Se eu pensar no que é bom, \nLimpo estarei perante Deus,\nSe eu pensar no que é mau, perecerei!",
+        "text": "Ajuda-me a manter puro\nO meu olhar, Senhor\nAjuda-me a só ver o que é bom\nAjuda-me a derrotar as tentações do olhar,\nAjuda-me, eu Te peço, ó Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Ajuda-me a manter puro\nO meu olhar, Senhor\nAjuda-me a só ver o que é bom",
+        "text": "Porque a luz do meu corpo são os olhos\nE o olhar modifica o meu viver\nSe os meus olhos forem bons,\nTodo o meu corpo terá luz\nPorém se os olhos forem maus, perecerei!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Ajuda-me a derrotar as tentações do olhar,\nAjuda-me, eu Te peço, ó Senhor!",
+        "text": "Ajuda-me a saber usar a língua, ó Deus\nAjuda-me a falar o que é bom\nAjuda-me a só falar o que constrói, ó Deus\nAjuda-me, eu Te peço, ó Senhor!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Porque a luz do meu corpo são os olhos\nE o olhar modifica o meu viver",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se os meus olhos forem bons,\nTodo o meu corpo terá luz\nPorém se os olhos forem maus, perecerei!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ajuda-me a saber usar a língua, ó Deus\nAjuda-me a falar o que é bom",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Ajuda-me a só falar o que constrói, ó Deus\nAjuda-me, eu Te peço, ó Senhor!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Porque a língua incendeia um bosque inteiro,\nPode tudo construir ou destruir.",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se eu falar o que é bom,\nToda a igreja crescerá,\nSe eu falar o que é mau, destruirei!",
+        "text": "Porque a língua incendeia um bosque inteiro,\nPode tudo construir ou destruir.\nSe eu falar o que é bom,\nToda a igreja crescerá,\nSe eu falar o que é mau, destruirei!",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -12322,7 +10218,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Bem de manhã, e sem cessar, \nVigiar, sim, e orar",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -12340,7 +10236,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -12358,7 +10254,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -12376,7 +10272,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -12386,73 +10282,31 @@ const LOUVORES_DATA = [
     "title": "VINHO E PÃO",
     "sections": [
       {
-        "text": "No nome forte de Jesus\nNos reunimos aquecidos por Sua luz",
+        "text": "No nome forte de Jesus\nNos reunimos aquecidos por Sua luz \nPor meio do Senhor, unidos neste amor \nCom vinho e pão nós celebramos comunhão [2 X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Por meio do Senhor, unidos neste amor \nCom vinho e pão nós celebramos comunhão [2X]",
+        "text": "Não me sinto estranho aqui \nEste é o meu lugar.\nNo perdão que tenho em Ti \nAprendo a perdoar",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Não me sinto estranho aqui",
+        "text": "Quem serve o vinho e parte o pão \nÉ o próprio Cristo, ressurreto e nosso irmão\nO Rei da terra e céus é nosso anfitrião \nCom vinho e pão nós celebramos comunhão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Este é o meu lugar.\nNo perdão que tenho em Ti",
+        "text": "Entre o povo do Senhor verdadeiro lar.\nCristo está presente aqui neste celebrar\nE logo vamos nos reunir \nNo grande encontro preparado que há de vir.\nNa glória do Senhor, em todo esplendor",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Aprendo a perdoar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Quem serve o vinho e parte o pão \nÉ o próprio Cristo, ressurreto e nosso irmão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "O Rei da terra e céus é nosso anfitrião \nCom vinho e pão nós celebramos comunhão",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Entre o povo do Senhor verdadeiro lar.\nCristo está presente aqui neste celebrar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "E logo vamos nos reunir",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "No grande encontro preparado que há de vir.",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Na glória do Senhor, em todo esplendor",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Com vinho e pão celebraremos comunhão [2X]",
+        "text": "Com vinho e pão celebraremos comunhão\nCom vinho e pão celebraremos comunhão",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -12487,7 +10341,7 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REPETE ACIMA]",
+        "text": "[REPETE TODA]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": true
@@ -12522,25 +10376,19 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "Importa agora, sim, estar\nJunto a quem por quem vivi\nJunto a Ti, ó meu Jesus... (2X)",
+        "text": "Importa agora, sim, estar\nJunto a quem por quem vivi\nJunto a Ti, ó meu Jesus... [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Junto a Ti, ó meu Jesus! (2X)",
+        "text": "Junto a Ti, ó meu Jesus! [2X]",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "Jesus!, Maranata, ora, vem, Senhor Jesus",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Vem, Jesus! Vem, Jesus!\nMaranata, ora, vem, Senhor Jesus",
+        "text": "Jesus!, Maranata, ora, vem, Senhor Jesus\nVem, Jesus! Vem, Jesus!\nMaranata, ora, vem, Senhor Jesus",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -12551,37 +10399,13 @@ const LOUVORES_DATA = [
     "title": "É TUA GRAÇA",
     "sections": [
       {
-        "text": "É Tua graça que liberta,\nÉ Tua graça que me cura,",
-        "isRefrao": false,
+        "text": "É Tua graça que liberta,\nÉ Tua graça que me cura,\nÉ Tua graça que sustenta a minha vida\nPor Teu sangue tenho acesso\nÀ Tua graça preciosa\nTe louvo, Te amo, Jesus!",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
-        "text": "É Tua graça que sustenta a minha vida",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Por Teu sangue tenho acesso\nÀ Tua graça preciosa",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Te louvo, Te amo, Jesus!",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Tua graça é melhor que a vida\nTua graça é o que me basta",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Favor imerecido do céu, do céu pra mim",
+        "text": "Tua graça é melhor que a vida\nTua graça é o que me basta\nFavor imerecido do céu, \ndo céu pra mim",
         "isRefrao": false,
         "isRef": false,
         "isInstruction": false
@@ -12594,7 +10418,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },

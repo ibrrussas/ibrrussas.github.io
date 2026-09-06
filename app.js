@@ -6,34 +6,34 @@
   'use strict';
 
   // ── DOM References ──────────────────────────────────────────
-  const sidebar        = document.getElementById('sidebar');
-  const sidebarToggle  = document.getElementById('sidebarToggle');
-  const overlay        = document.getElementById('overlay');
-  const mainContent    = document.getElementById('mainContent');
-  const searchInput    = document.getElementById('searchInput');
-  const hymnList       = document.getElementById('hymnList');
-  const hymnCount      = document.getElementById('hymnCount');
-  const noResults      = document.getElementById('noResults');
-  const welcomeScreen  = document.getElementById('welcomeScreen');
-  const lyricsArea     = document.getElementById('lyricsArea');
-  const lyricsTitle    = document.getElementById('lyricsTitle');
-  const lyricsBody     = document.getElementById('lyricsBody');
-  const fontIncrease   = document.getElementById('fontIncrease');
-  const fontDecrease   = document.getElementById('fontDecrease');
-  const fontReset      = document.getElementById('fontReset');
-  const header         = document.getElementById('header');
-  const logoLink       = document.getElementById('logoLink');
+  const sidebar = document.getElementById('sidebar');
+  const sidebarToggle = document.getElementById('sidebarToggle');
+  const overlay = document.getElementById('overlay');
+  const mainContent = document.getElementById('mainContent');
+  const searchInput = document.getElementById('searchInput');
+  const hymnList = document.getElementById('hymnList');
+  const hymnCount = document.getElementById('hymnCount');
+  const noResults = document.getElementById('noResults');
+  const welcomeScreen = document.getElementById('welcomeScreen');
+  const lyricsArea = document.getElementById('lyricsArea');
+  const lyricsTitle = document.getElementById('lyricsTitle');
+  const lyricsBody = document.getElementById('lyricsBody');
+  const fontIncrease = document.getElementById('fontIncrease');
+  const fontDecrease = document.getElementById('fontDecrease');
+  const fontReset = document.getElementById('fontReset');
+  const header = document.getElementById('header');
+  const logoLink = document.getElementById('logoLink');
 
   // ── State ───────────────────────────────────────────────────
   const MOBILE_BREAKPOINT = 768;
   const DEFAULT_FONT_SIZE = 1.125;   // rem
-  const FONT_STEP         = 0.125;   // rem
-  const MIN_FONT_SIZE     = 0.75;
-  const MAX_FONT_SIZE     = 2.5;
+  const FONT_STEP = 0.125;   // rem
+  const MIN_FONT_SIZE = 0.75;
+  const MAX_FONT_SIZE = 2.5;
 
-  let currentFontSize   = DEFAULT_FONT_SIZE;
-  let currentHymnIndex  = -1;
-  let isMobile          = window.innerWidth <= MOBILE_BREAKPOINT;
+  let currentFontSize = DEFAULT_FONT_SIZE;
+  let currentHymnIndex = -1;
+  let isMobile = window.innerWidth <= MOBILE_BREAKPOINT;
 
   // ── Initialise ──────────────────────────────────────────────
   function init() {
@@ -71,7 +71,7 @@
       // Hymn button
       const btn = document.createElement('button');
       btn.className = 'sidebar__item';
-      btn.textContent = hymn.title;
+      btn.textContent = hymn.title.toUpperCase();
       btn.setAttribute('role', 'listitem');
       btn.setAttribute('data-index', index);
       btn.addEventListener('click', function () {
@@ -123,7 +123,7 @@
     }
 
     // Build lyrics HTML
-    lyricsTitle.textContent = hymn.title;
+    lyricsTitle.textContent = hymn.title.toUpperCase();
     lyricsBody.innerHTML = '';
 
     hymn.sections.forEach(function (section) {
