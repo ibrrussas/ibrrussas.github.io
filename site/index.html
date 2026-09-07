@@ -9,414 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <style>
-        :root {
-            --vermelho-profundo: #A50F14;
-            --vermelho-vivo: #F20D18;
-            --bordo: #6F1012;
-            --verde-institucional: #087C2B;
-            --preto: #111111;
-            --branco: #FFFFFF;
-            --marfim: #F4F0E7;
-            --cinza-suave: #E5E0D8;
-            
-            --fonte-display: 'Cormorant Garamond', Georgia, serif;
-            --fonte-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: var(--fonte-sans);
-            background-color: var(--branco);
-            color: var(--preto);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        h1, h2, h3, h4 {
-            font-family: var(--fonte-display);
-            font-weight: 600;
-            color: var(--preto);
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.3s ease;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .container {
-            max-width: 1140px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        .btn {
-            display: inline-block;
-            font-family: var(--fonte-sans);
-            font-size: 0.75rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            padding: 14px 28px;
-            border: 1px solid transparent;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .btn-primary {
-            background-color: var(--vermelho-profundo);
-            color: var(--branco);
-        }
-
-        .btn-primary:hover {
-            background-color: var(--bordo);
-        }
-
-        .btn-outline {
-            border-color: var(--vermelho-profundo);
-            color: var(--vermelho-profundo);
-            background: transparent;
-        }
-
-        .btn-outline:hover {
-            background-color: var(--vermelho-profundo);
-            color: var(--branco);
-        }
-
-        .img-placeholder {
-            background-color: #DCD6CD;
-            border: 1px solid #C8C0B3;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #666;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            min-height: 250px;
-        }
-
-        /*HEADER*/
-        header {
-            background-color: var(--branco);
-            border-bottom: 1px solid var(--cinza-suave);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .header-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 16px 24px;
-        }
-
-        .logo-text {
-            font-family: var(--fonte-display);
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: var(--vermelho-profundo);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            line-height: 1.1;
-        }
-
-        .logo-text span {
-            display: block;
-            font-family: var(--fonte-sans);
-            font-size: 0.65rem;
-            color: var(--preto);
-            letter-spacing: 2px;
-            margin-top: 2px;
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 28px;
-            align-items: center;
-        }
-
-        nav a {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            font-weight: 500;
-            color: var(--preto);
-        }
-
-        nav a:hover {
-            color: var(--vermelho-profundo);
-        }
-
-        .nav-btn {
-            font-size: 0.7rem;
-            padding: 10px 20px;
-        }
-
-        /*BANNER PRINCIPAL*/
-        .hero {
-            position: relative;
-            min-height: 80vh;
-            display: flex;
-            align-items: center;
-            background: linear-gradient(rgba(17, 17, 17, 0.75), rgba(17, 17, 17, 0.75)), 
-                        url('img/Banner.jpeg') center/cover no-repeat;
-            background-color: var(--preto);
-            color: var(--branco);
-            padding: 80px 0;
-        }
-
-        .hero-content {
-            max-width: 650px;
-        }
-
-        .hero-subtitle {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            color: var(--marfim);
-            font-weight: 600;
-            margin-bottom: 12px;
-            display: block;
-        }
-
-        .hero-title {
-            font-size: 3.5rem;
-            line-height: 1.1;
-            margin-bottom: 20px;
-            color: var(--branco);
-        }
-
-        .hero-description {
-            font-size: 1.1rem;
-            color: var(--marfim);
-            margin-bottom: 32px;
-            font-weight: 300;
-        }
-
-        /* SOBRE NÓS E SEÇÕES */
-        .about {
-            padding: 80px 0;
-        }
-
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-
-        .section-tag {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--vermelho-profundo);
-            font-weight: 600;
-            display: block;
-            margin-bottom: 4px;
-        }
-
-        .section-title {
-            font-size: 2.5rem;
-            margin-bottom: 16px;
-            line-height: 1.2;
-        }
-
-        .about-text {
-            font-size: 1.05rem;
-            color: #222;
-            line-height: 1.8;
-            margin-bottom: 28px;
-        }
-
-        .about-image {
-            height: 380px;
-            width: 100%;
-        }
-
-        /* PROGRAMAÇÃO E BLOG */
-        .schedule {
-            background-color: var(--marfim);
-            padding: 80px 0;
-            border-top: 1px solid var(--cinza-suave);
-            border-bottom: 1px solid var(--cinza-suave);
-        }
-
-        .schedule-header {
-            margin-bottom: 40px;
-        }
-
-        .schedule-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 32px;
-        }
-
-        .schedule-card {
-            background-color: var(--branco);
-            padding: 36px;
-            border: 1px solid var(--cinza-suave);
-            border-top: 4px solid var(--vermelho-profundo);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; /* Alinha todo o conteúdo no topo */
-            gap: 12px;                  /* Garante um espaçamento uniforme interno */
-        }
-
-        .schedule-card h3 {
-            font-size: 1.8rem;
-            margin-bottom: 4px;
-        }
-
-        .schedule-card .day-subtitle {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--vermelho-profundo);
-            font-weight: 600;
-            margin-bottom: 20px;
-            display: block;
-        }
-
-        .schedule-item {
-            display: flex;
-            gap: 20px;
-            padding: 12px 0;
-            border-bottom: 1px solid var(--marfim);
-        }
-
-        .schedule-item:last-child {
-            border-bottom: none;
-        }
-
-        .schedule-time {
-            font-family: var(--fonte-sans);
-            font-weight: 700;
-            font-size: 0.9rem;
-            color: var(--vermelho-profundo);
-            min-width: 60px;
-        }
-
-        .schedule-desc {
-            font-size: 0.95rem;
-            color: #333;
-        }
-
-        /* LOCALIZAÇÃO */
-        .location {
-            padding: 80px 0;
-        }
-
-        .location-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 48px;
-            margin-top: 20px;
-        }
-
-        .location-info h3 {
-            font-size: 1.6rem;
-            margin-bottom: 12px;
-        }
-
-        .location-info p {
-            color: #444;
-            font-size: 0.95rem;
-            margin-bottom: 24px;
-            line-height: 1.7;
-        }
-
-        .map-frame {
-            width: 100%;
-            height: 300px;
-            border: 1px solid var(--cinza-suave);
-        }
-
-        /* FOOTER */
-        footer {
-            background-color: var(--preto);
-            color: var(--marfim);
-            padding: 24px 0;
-            border-top: 3px solid var(--vermelho-profundo);
-        }
-
-        .footer-flex {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .footer-brand h2 {
-            color: var(--branco);
-            font-size: 1.1rem;
-            line-height: 1.2;
-        }
-
-        .footer-brand p {
-            font-size: 0.65rem;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: #888;
-            margin-top: 2px;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 20px;
-            list-style: none;
-        }
-
-        .social-links a {
-            color: var(--marfim);
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .social-links a:hover {
-            color: var(--vermelho-profundo);
-        }
-
-        @media (max-width: 900px) {
-            .about-grid, .location-grid {
-                grid-template-columns: 1fr;
-                gap: 32px;
-            }
-
-            .hero-title {
-                font-size: 2.5rem;
-            }
-
-            .footer-flex {
-                flex-direction: column;
-                gap: 16px;
-                text-align: center;
-            }
-
-            nav ul {
-                display: none;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -424,14 +19,25 @@
     <header>
         <div class="container header-container">
             <a href="#" class="logo">
-                <img src="img\Logo Horizontal Fonte Preta.png" alt="logo" style="height: 70px; margin-left: 12px;">
+                <img src="img/Logo Horizontal Fonte Preta.png" alt="Logo Igreja Batista Reformada" style="height: 70px; margin-left: 12px;">
             </a>
 
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="#sobre">Sobre Nós</a></li>
                     <li><a href="#programacao">Programação</a></li>
-                    <li><a href="#blog">Palavra Pastoral</a></li>
+                    <li><a href="#blog">Pastorais</a></li>
+                    
+                    <!-- Menu Suspenso: Auxílios -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">
+                            Auxílios <i class="fa-solid fa-chevron-down" style="font-size: 0.65rem; margin-left: 4px;"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#louvores">Louvores</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="#localizacao">Localização</a></li>
                     <li>
                         <a href="#" class="btn btn-outline nav-btn">Área de Membros</a>
@@ -473,7 +79,7 @@
                 </div>
                 <div class="about-image">
                     <div class="img-placeholder" style="height: 100%;">
-                        <img src="img\Cruz.jpg" alt="Foto Interna da Igreja" style="height: 100%; width: 100%; object-fit: cover; object-position: center">
+                        <img src="img/Cruz.jpg" alt="Foto Interna da Igreja" style="height: 100%; width: 100%; object-fit: cover; object-position: center;">
                     </div>
                 </div>
             </div>
@@ -488,7 +94,6 @@
                 </div>
 
                 <div class="schedule-grid">
-                    <!-- Domingo -->
                     <div class="schedule-card">
                         <div>
                             <h3>Domingo</h3>
@@ -506,7 +111,6 @@
                         </div>
                     </div>
 
-                    <!-- Quarta-Feira -->
                     <div class="schedule-card">
                         <div>
                             <h3>Quarta-Feira</h3>
@@ -519,7 +123,6 @@
                         </div>
                     </div>
 
-                    <!-- Sábado -->
                     <div class="schedule-card">
                         <div>
                             <h3>Sábado</h3>
@@ -557,6 +160,92 @@
             </div>
         </section>
 
+        <!-- SEÇÃO: OFICIAIS DA IGREJA -->
+        <section class="officers-section">
+            <div class="container">
+                <div class="schedule-header">
+                    <span class="section-tag">Liderança Bíblica</span>
+                    <h2 class="section-title">Oficiais da Igreja</h2>
+                </div>
+
+                <div class="officers-grid">
+                    <!-- Pastor -->
+                    <div class="officer-card">
+                        <img src="img/oficiais/pastor.jpg" alt="Foto do Pastor" class="officer-img" style="object-position: top;">
+                        <h3 class="officer-name">Elivando Mesquita</h3>
+                        <span class="officer-role">Pastor</span>
+                        <p class="officer-desc">
+                            Responsável pela pregação expositiva, ensino das Escrituras e pastoreio do rebanho local.
+                        </p>
+                    </div>
+
+                    <!-- Presbítero -->
+                    <div class="officer-card">
+                        <img src="img/oficiais/presbitero.jpg" alt="Foto do Presbítero" class="officer-img">
+                        <h3 class="officer-name">George Oliveira</h3>
+                        <span class="officer-role">Presbítero</span>
+                        <p class="officer-desc">
+                            Atua no governo da igreja, ensino da Palavra e auxílio no cuidado espiritual das famílias.
+                        </p>
+                    </div>
+
+                    <!-- Diácono -->
+                    <div class="officer-card">
+                        <img src="img/oficiais/diacono.jpg" alt="Foto do Diácono" class="officer-img">
+                        <h3 class="officer-name">Leandro Cleiton</h3>
+                        <span class="officer-role">Diácono</span>
+                        <p class="officer-desc">
+                            Servidor dedicado às necessidades materiais da comunidade e à ordem na casa do Senhor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CANAIS E REDES SOCIAIS -->
+        <section class="social-section">
+            <div class="container">
+                <div class="schedule-header">
+                    <span class="section-tag">Conecte-se Conosco</span>
+                    <h2 class="section-title">Nossos Canais</h2>
+                </div>
+
+                <div class="social-grid">
+                    <!-- YouTube Igreja -->
+                    <a href="https://www.youtube.com/@ibrrussas" target="_blank" rel="noopener noreferrer" class="social-card">
+                        <i class="fa-brands fa-youtube social-card-icon"></i>
+                        <h3 class="social-card-title">YouTube</h3>
+                        <span class="social-card-sub">Igreja Batista Reformada em Russas</span>
+                        <span class="btn btn-outline" style="padding: 8px 16px; font-size: 0.65rem;">Acessar Canal</span>
+                    </a>
+
+                    <!-- YouTube Pastor -->
+                    <a href="https://www.youtube.com/@ElivandoMesquita" target="_blank" rel="noopener noreferrer" class="social-card">
+                        <i class="fa-brands fa-youtube social-card-icon"></i>
+                        <h3 class="social-card-title">YouTube</h3>
+                        <span class="social-card-sub">Canal do Pastor Elivando Mesquita</span>
+                        <span class="btn btn-outline" style="padding: 8px 16px; font-size: 0.65rem;">Acessar Canal</span>
+                    </a>
+
+                    <!-- Instagram Igreja -->
+                    <a href="https://www.instagram.com/ibrrussas/" target="_blank" rel="noopener noreferrer" class="social-card">
+                        <i class="fa-brands fa-instagram social-card-icon"></i>
+                        <h3 class="social-card-title">Instagram</h3>
+                        <span class="social-card-sub">@ibrrussas</span>
+                        <span class="btn btn-outline" style="padding: 8px 16px; font-size: 0.65rem;">Seguir Perfil</span>
+                    </a>
+
+                    <!-- WhatsApp Igreja -->
+                    <a href="https://wa.me/5588988250560" target="_blank" rel="noopener noreferrer" class="social-card">
+                        <i class="fa-brands fa-whatsapp social-card-icon"></i>
+                        <h3 class="social-card-title">WhatsApp</h3>
+                        <span class="social-card-sub">Fale Conosco</span>
+                        <span class="btn btn-primary" style="padding: 8px 16px; font-size: 0.65rem;">Enviar Mensagem</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <!-- LOCALIZAÇÃO -->
         <section id="localizacao" class="location" style="background-color: var(--marfim); border-top: 1px solid var(--cinza-suave);">
             <div class="container">
@@ -572,22 +261,21 @@
                             Russas – Ceará<br><br>
                             Venha cultuar conosco e conhecer nossa comunidade.
                         </p>
-                        <!-- Botão com o link exato fornecido -->
                         <a href="https://maps.app.goo.gl/zokhTsMsdUJMQXrx9" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
                             Abrir no Google Maps
                         </a>
                     </div>
                     <div class="location-media">
-                        <!-- Mapa Interativo apontando para a localização da igreja -->
+                        <!-- Mapa / Street View Incorporado -->
                         <iframe 
                             class="map-frame"
-                            src="https://maps.google.com/maps?q=Igreja+Batista+Reformada+em+Russas,+R.+Vasco+da+Gama,+Tabuleiro+do+Catavento,+Russas+-+CE&t=&z=17&ie=UTF8&iwloc=&output=embed" 
+                            src="https://www.google.com/maps/embed?pb=!4v1788786511005!6m8!1m7!1sZSV7wcvklzK6seta1MVlKA!2m2!1d-4.925086942531292!2d-37.96977578780946!3f123.1053437882062!4f-7.7195251647223415!5f0.7820865974627469" 
                             width="100%" 
                             height="300" 
                             style="border:0;" 
                             allowfullscreen="" 
                             loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade">
+                            referrerpolicy="strict-origin-when-cross-origin">
                         </iframe>
                     </div>
                 </div>
@@ -597,86 +285,97 @@
 
     <!-- RODAPÉ -->
     <footer>
-        <div class="container footer-flex">
-            <div class="footer-brand">
-                <h2>Igreja Batista Reformada em Russas</h2>
+        <div class="container footer-compact">
+            <div class="logo-text">
+                Igreja Batista Reformada
+                <span>EM RUSSAS</span>
             </div>
 
-            <ul class="social-links">
-                <li><a href="https://www.instagram.com/ibrrussas/" target="_blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/@ibrrussas" target="_blank">YouTube</a></li>
-                <li><a href="https://anutricaodaigreja.com/blog/" target="_blank">Blog do Pastor</a></li>
-                <li><a href="https://wa.me/5588988250560" target="_blank">WhatsApp</a></li>
-            </ul>
+            <div class="footer-address">
+                R. Vasco da Gama, S/N — Tabuleiro do Catavento, Russas/CE
+            </div>
+
+            <div class="footer-right">
+                <span class="footer-soli-deo">SOLI DEO GLORIA</span>
+                <span>&copy; 2026 IBR Russas</span>
+            </div>
         </div>
     </footer>
 
-<!-- SCRIPT DE INTEGRAÇÃO DIRETA VIA API NATIVA DO WORDPRESS -->
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        // Endereço da API nativa do WordPress do blog
-        const wpApiUrl = 'https://anutricaodaigreja.com/blog/wp-json/wp/v2/posts?per_page=3';
+    <!-- SCRIPT DE INTEGRAÇÃO VIA WORDPRESS API -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const wpApiUrl = 'https://anutricaodaigreja.com/blog/wp-json/wp/v2/posts?per_page=3&_embed';
 
-        fetch(wpApiUrl)
-            .then(response => {
-                if (!response.ok) throw new Error('Não foi possível conectar ao blog');
-                return response.json();
-            })
-            .then(posts => {
-                const container = document.getElementById('blog-posts-container');
-                
-                if (!posts || posts.length === 0) {
-                    container.innerHTML = '<p style="color: #666;">Nenhum artigo encontrado no momento.</p>';
-                    return;
-                }
+            fetch(wpApiUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error('Não foi possível conectar ao blog');
+                    return response.json();
+                })
+                .then(posts => {
+                    const container = document.getElementById('blog-posts-container');
+                    
+                    if (!posts || posts.length === 0) {
+                        container.innerHTML = '<p style="color: #666;">Nenhum artigo encontrado no momento.</p>';
+                        return;
+                    }
 
-                container.innerHTML = '';
+                    container.innerHTML = '';
 
-                posts.forEach(post => {
-                    // Formata a data do post
-                    const dateFormatted = new Date(post.date).toLocaleDateString('pt-BR', {
-                        day: '2-digit',
-                        month: 'short',
-                        year: 'numeric'
+                    posts.forEach(post => {
+                        const dateFormatted = new Date(post.date).toLocaleDateString('pt-BR', {
+                            day: '2-digit',
+                            month: 'short',
+                            year: 'numeric'
+                        });
+
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = post.excerpt.rendered;
+                        const cleanSnippet = tempDiv.textContent.trim().substring(0, 100) + '...';
+
+                        let imageUrl = '';
+                        if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
+                            imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+                        }
+
+                        const imageHtml = imageUrl 
+                            ? `<div style="height: 180px; overflow: hidden; margin: -36px -36px 20px -36px; border-bottom: 1px solid var(--cinza-suave);">
+                                <img src="${imageUrl}" alt="${post.title.rendered}" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>` 
+                            : '';
+
+                        const card = document.createElement('div');
+                        card.className = 'schedule-card';
+                        card.style.borderTopColor = 'var(--bordo)';
+                        card.innerHTML = `
+                            <div>
+                                ${imageHtml}
+                                <span class="day-subtitle">${dateFormatted}</span>
+                                <h3 style="font-size: 1.35rem; margin-bottom: 12px; line-height: 1.25;">${post.title.rendered}</h3>
+                                <p style="font-size: 0.9rem; color: #444; margin-bottom: 20px; line-height: 1.6;">${cleanSnippet}</p>
+                            </div>
+                            <div>
+                                <a href="${post.link}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 18px; font-size: 0.65rem; width: 100%; text-align: center;">
+                                    Ler no Blog &rarr;
+                                </a>
+                            </div>
+                        `;
+                        container.appendChild(card);
                     });
-
-                    // Remove tags HTML do resumo e limita o tamanho
-                    const tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = post.excerpt.rendered;
-                    const cleanSnippet = tempDiv.textContent.trim().substring(0, 110) + '...';
-
-                    // Constrói o card seguindo o Design System
-                    const card = document.createElement('div');
-                    card.className = 'schedule-card';
-                    card.style.borderTopColor = 'var(--bordo)';
-                    card.innerHTML = `
-                        <div>
-                            <span class="day-subtitle">${dateFormatted}</span>
-                            <h3 style="font-size: 1.35rem; margin-bottom: 12px; line-height: 1.25;">${post.title.rendered}</h3>
-                            <p style="font-size: 0.9rem; color: #444; margin-bottom: 20px; line-height: 1.6;">${cleanSnippet}</p>
-                        </div>
-                        <div>
-                            <a href="${post.link}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 18px; font-size: 0.65rem; width: 100%; text-align: center;">
-                                Ler no Blog &rarr;
+                })
+                .catch(err => {
+                    console.error('Erro ao carregar o blog:', err);
+                    const container = document.getElementById('blog-posts-container');
+                    container.innerHTML = `
+                        <div style="grid-column: 1 / -1; text-align: center; padding: 20px;">
+                            <p style="color: #666; margin-bottom: 12px;">Acompanhe as últimas publicações diretamente no site do pastor:</p>
+                            <a href="https://anutricaodaigreja.com/blog/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                                Acessar A Nutrição da Igreja
                             </a>
                         </div>
                     `;
-                    container.appendChild(card);
                 });
-            })
-            .catch(err => {
-                console.error('Erro ao carregar o blog:', err);
-                const container = document.getElementById('blog-posts-container');
-                container.innerHTML = `
-                    <div style="grid-column: 1 / -1; text-align: center; padding: 20px;">
-                        <p style="color: #666; margin-bottom: 12px;">Acompanhe as últimas publicações diretamente no site do pastor:</p>
-                        <a href="https://anutricaodaigreja.com/blog/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-                            Acessar A Nutrição da Igreja
-                        </a>
-                    </div>
-                `;
-            });
-    });
-</script>
+        });
+    </script>
 </body>
 </html>
