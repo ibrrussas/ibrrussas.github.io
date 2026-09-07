@@ -699,7 +699,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Cristo sabe das nossas lutas\nGuiará até o fim chegar\nNenhum amigo há igual a Cristo!\nNão, nenhum! Não, nenhum!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -717,7 +717,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -735,7 +735,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -753,7 +753,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -1601,7 +1601,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "CANTAI LOUVORES 85 CC",
+    "title": "CANTAI LOUVORES (85 CC)",
     "sections": [
       {
         "text": "Ó vinde crentes e entoai louvores a Jesus\nQue, para a nossa salvação,\nFoi morto numa cruz\nSeu sangue derramou, de tudo me lavou,\nMais alvo do que a neve me tornou",
@@ -1611,7 +1611,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "O sangue de Jesus\nMe lavou, me lavou!\nO sangue de Jesus\nMe lavou, me lavou!\nAlegre cantarei louvores a meu Rei\nA meu Senhor Jesus que me salvou",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -1623,7 +1623,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -1635,7 +1635,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -2154,7 +2154,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "CORAJOSOS 469 CC",
+    "title": "CORAJOSOS (469 CC)",
     "sections": [
       {
         "text": "Um pendão real vos entregou o Rei \nA vós, Soldados Seus \nCorajosos, pois, de tudo o defendei\nMarchando para os céus",
@@ -2164,7 +2164,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Com valor, sem temor,\nPor Cristo prontos a sofrer\nBem alto erguei o Seu pendão, \nFirmes sempre até morrer",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -2211,7 +2211,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Dá-me um coração igual ao Teu, \nMeu Mestre\nDá-me um coração igual ao Teu\nCoração disposto a obedecer, \nCumprir todo o Teu querer \nDá-me um coração igual ao Teu",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -2354,7 +2354,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "CRER E OBSERVAR 301CC",
+    "title": "CRER E OBSERVAR (301 CC)",
     "sections": [
       {
         "text": "Em Jesus confiar, Sua lei observar\nOh que gozo, que benção, que paz!\nSatisfeito guardar tudo quanto ordenar\nAlegria perene nos traz",
@@ -2364,7 +2364,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Crer e observar tudo quanto ordenar\nO fiel obedece ao que Cristo mandar",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -2977,7 +2977,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Deus cuidará de ti \nEm cada dia proverá \nSim, cuidará de ti \nDeus cuidará de ti",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -3291,7 +3291,7 @@ const LOUVORES_DATA = [
     ]
   },
   {
-    "title": "DIA FESTIVO 411 CC",
+    "title": "DIA FESTIVO (411 CC)",
     "sections": [
       {
         "text": "Que alegria neste dia \nNós estamos a gozar\nNeste ensejo bom desejo temos: \nSó a Deus louvar!",
@@ -3301,7 +3301,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Oh! Cantemos, pois, com alegria\nNeste grande e mui festivo dia\nVê! Vê o que nos fez o Rei dos reis!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -3471,7 +3471,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Jesus, que doce nome!\nQue transforma em alegria\nO meu triste coração\nJesus, só o Teu nome\nÉ capaz de dar \nAo homem salvação!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -4142,7 +4142,7 @@ const LOUVORES_DATA = [
     "sections": [
       {
         "text": "Estamos aqui pra Te adorar,\nEm Tua presença pra Te exaltar\nNossos olhos contemplam\nTua face de amor\nTudo o que temos, tudo o que somos\nÉ Teu, Senhor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -4577,7 +4577,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Por toda eternidade\nTu serás adorado com louvor\nTeu nome é exaltado\nSempre magnificado com louvor\nGrande Senhor!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -4601,7 +4601,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -4671,7 +4671,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Grande é o Senhor, em majestade\nSobre toda a terra reina em altivez\nGrande é o Senhor em santidade\nCéus e terra cumprem Suas leis\nCriou o mundo e o fez viver,\nO dia faz nascer\nMostrando a imensidão do Seu poder\nGrande é o Senhor, em majestade. \nGrande é o Senhor!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -4689,7 +4689,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       }
@@ -4813,7 +4813,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Dia do Senhor Santo e Fiel\nSuba nosso canto como incenso ao céu\nDia do Senhor, Graça e redenção\nToda língua exalte o Deus da criação",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -4949,7 +4949,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Para isso, \nO Filho de Deus se manifestou:\nPara desfazer As obras do diabo\nSeparando para Si um povo Santo, \nSem mácula, nem ruga, Sua Igreja gloriosa",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -5225,7 +5225,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Junto a Ti, junto a Ti,\njunto a Ti, junto a Ti\nQuero andar contigo sempre \nna jornada minha aqui",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -5337,7 +5337,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Pois Tu sabes bem \nTudo quanto há em mim.\nVou Te seguir e Te amar até o fim",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -5355,7 +5355,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -5484,7 +5484,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Sempre hei de suplicar:\nMais perto quero estar!\nMais perto quero estar,\nMeu Deus de Ti",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -5496,7 +5496,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -5508,7 +5508,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -5708,7 +5708,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Liberto eu fui de uma prisão\nMeu Salvador me resgatou\nMisericórdia e perdão\nEterno amor e redenção",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -5802,7 +5802,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Marcharemos cheios de coragem\nSeguiremos seja onde for\nEmbora a dor nos cerque na viagem\nMarcharemos na coragem do Senhor",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -5814,7 +5814,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -5826,7 +5826,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -5932,7 +5932,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "Eis a mensagem que me deu\nAquele que por nós morreu;\n'Reconciliai-vos já', é ordem que ele dá;\n'Reconciliai-vos já com Deus'!",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -6126,13 +6126,13 @@ const LOUVORES_DATA = [
     "sections": [
       {
         "text": "Quem tem posto a mão no arado\nNão pode mais olhar pra trás\nPois quem no arado põe a mão\nTrabalho certo e perto, \nTem serviço e profissão",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -6156,7 +6156,7 @@ const LOUVORES_DATA = [
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -6820,32 +6820,14 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "O dia da vitória em que\nvirá meu Salvador Sim, Jesus Cristo, \no Senhor, virá nas nuvens para me levar",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Se tornará verdade\ntudo o que sempre sonhei, \ntristezas eu não mais terei e \ntoda lágrima do meu olhar Ele enxugará",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Braços levantados,\nlivres do mal\nIgualdade e justiça haverá",
-        "isRefrao": false,
-        "isRef": false,
-        "isInstruction": false
-      },
-      {
-        "text": "Já não mais terá morte ou guerra\nNovo céu e uma nova terra\nEu desejo tanto ver o dia chegar",
-        "isRefrao": false,
+        "text": "O dia da vitória em que\nvirá meu Salvador Sim, Jesus Cristo, \no Senhor, virá nas nuvens para me levar \n\n Se tornará verdade\ntudo o que sempre sonhei, \ntristezas eu não mais terei e \ntoda lágrima do meu olhar Ele enxugará\\n\n Braços levantados,\nlivres do mal\nIgualdade e justiça haverá \n\n Já não mais terá morte ou guerra\nNovo céu e uma nova terra\nEu desejo tanto ver o dia chegar",
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
       {
         "text": "[REFRÃO]",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": true,
         "isInstruction": false
       },
@@ -8009,7 +7991,7 @@ const LOUVORES_DATA = [
     "sections": [
       {
         "text": "Quem é Deus \nacima do Senhor?\nQuem é rocha \ncomo o nosso Deus?",
-        "isRefrao": false,
+        "isRefrao": true,
         "isRef": false,
         "isInstruction": false
       },
@@ -8067,9 +8049,15 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO] (2X)",
+        "text": "[REFRÃO]",
         "isRefrao": true,
-        "isRef": false,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {
@@ -8085,9 +8073,15 @@ const LOUVORES_DATA = [
         "isInstruction": false
       },
       {
-        "text": "[REFRÃO] (2X)",
+        "text": "[REFRÃO]",
         "isRefrao": true,
-        "isRef": false,
+        "isRef": true,
+        "isInstruction": false
+      },
+      {
+        "text": "[REFRÃO]",
+        "isRefrao": true,
+        "isRef": true,
         "isInstruction": false
       },
       {

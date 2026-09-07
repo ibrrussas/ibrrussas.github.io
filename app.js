@@ -37,10 +37,22 @@
 
   // ── Initialise ──────────────────────────────────────────────
   function init() {
+    sortHymns();
     buildHymnList();
     bindEvents();
     updateSidebarState();
     applyFontSize();
+  }
+
+  /**
+   * Sort LOUVORES_DATA alphabetically by title,
+   * ignoring accents/diacritics (e.g. "Ó" sorts with "O").
+   */
+  function sortHymns() {
+    if (typeof LOUVORES_DATA === 'undefined' || !LOUVORES_DATA.length) return;
+    LOUVORES_DATA.sort(function (a, b) {
+      return a.title.localeCompare(b.title, 'pt-BR', { sensitivity: 'base' });
+    });
   }
 
   // ── Build the sidebar hymn list ─────────────────────────────
