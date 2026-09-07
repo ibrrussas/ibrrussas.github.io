@@ -211,18 +211,12 @@
 
   function updateSidebarState() {
     isMobile = window.innerWidth <= MOBILE_BREAKPOINT;
-    if (isMobile) {
+    if (isMobile && (document.activeElement !== searchInput)) {
       sidebar.classList.remove('collapsed');
       sidebar.classList.remove('open');
       mainContent.classList.remove('expanded');
       overlay.classList.remove('visible');
       document.body.style.overflow = '';
-      // Don't close sidebar if search input is focused (Android keyboard resize)
-      if (document.activeElement !== searchInput) {
-        sidebar.classList.remove('open');
-        overlay.classList.remove('visible');
-        document.body.style.overflow = '';
-      }
     } else {
       sidebar.classList.remove('open');
       overlay.classList.remove('visible');
