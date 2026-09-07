@@ -339,11 +339,11 @@
     fontReset.addEventListener('click', resetFontSize);
 
     // Window resize
-    let resizeTimer;
-    window.addEventListener('resize', function () {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(updateSidebarState, 150);
-    });
+    /*   let resizeTimer;
+       window.addEventListener('resize', function () {
+         clearTimeout(resizeTimer);
+         resizeTimer = setTimeout(updateSidebarState, 150);
+       });*/
 
     // Header scroll shadow
     window.addEventListener('scroll', function () {
