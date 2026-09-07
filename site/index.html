@@ -19,16 +19,20 @@
     <header>
         <div class="container header-container">
             <a href="#" class="logo">
-                <img src="img/Logo Horizontal Fonte Preta.png" alt="Logo Igreja Batista Reformada" style="height: 70px; margin-left: 12px;">
+                <img src="img/Logo Horizontal Fonte Preta.png" alt="Logo Igreja Batista Reformada" style="height: 60px;">
             </a>
 
+            <!-- Ícone Hambúrguer para Mobile -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
             <nav>
-                <ul class="nav-links">
+                <ul class="nav-links" id="nav-links">
                     <li><a href="#sobre">Sobre Nós</a></li>
                     <li><a href="#programacao">Programação</a></li>
                     <li><a href="#blog">Pastorais</a></li>
                     
-                    <!-- Menu Suspenso: Auxílios -->
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-toggle">
                             Auxílios <i class="fa-solid fa-chevron-down" style="font-size: 0.65rem; margin-left: 4px;"></i>
@@ -375,6 +379,36 @@
                         </div>
                     `;
                 });
+        });
+    </script>
+
+    <!-- SCRIPT DO MENU MOBILE -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            
+            const icon = menuToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = menuToggle.querySelector('i');
+                if (icon) {
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                }
+            });
         });
     </script>
 </body>
